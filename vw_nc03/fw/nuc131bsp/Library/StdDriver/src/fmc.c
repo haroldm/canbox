@@ -12,7 +12,7 @@
  *****************************************************************************/
 
 //* Includes ------------------------------------------------------------------*/
-#include <stdio.h>
+// #include <stdio.h>
 #include "NUC131.h"
 
 /** @addtogroup NUC131_Device_Driver NUC131 Device Driver

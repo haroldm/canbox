@@ -1,0 +1,19 @@
+AUDI_STM32FEB_OBJS = audi_stm32feb/fw/hw_clock.vo \
+		audi_stm32feb/fw/hw_can.vo \
+		audi_stm32feb/fw/hw_gpio.vo \
+		audi_stm32feb/fw/hw_tick.vo \
+		audi_stm32feb/fw/hw_usart.vo \
+		audi_stm32feb/fw/hw_sleep.vo
+
+%.vo : %.c
+	$(CC) $(F103_CFLAGS) -c $< -o $@
+
+audi_stm32feb.bin: main.vo canbox.vo ring.vo conf.vo car.vo tick.vo hw.vo sbrk.vo $(AUDI_STM32FEB_OBJS) $(LIBOPENCM3_OBJS)
+	$(CC) $^ -L. -Taudi_stm32feb/fw/x32feb.ld -L$(LIBOPENCM3_DIR)/lib/stm32/f1 $(F103_LDFLAGS) $(F103_INCLUDES) -Wl,-Map=audi_stm32feb.map -o audi_stm32feb.elf
+	$(OBJCOPY) -O binary audi_stm32feb.elf $@
+
+flash_audi_stm32feb: audi_stm32feb.bin
+	openocd -f audi_stm32feb/fw/stm32feb_ftdi2232hl.cfg -c "init; reset halt" -c "mww 0x40022004 0x45670123" -c "mww 0x40022004 0xCDEF89AB" -c "mww 0x40022008 0x45670123" -c "mww 0x40022008 0xCDEF89AB" -c "mww 0x40022010 0x220" -c "mww 0x40022010 0x260" -c "sleep 100" -c "mww 0x40022010 0x230" -c "mwh 0x1ffff800 0x5AA5" -c "sleep 1000" -c "mww 0x40022010 0x2220" -c "sleep 100" -c "mdw 0x40022010" -c "mdw 0x4002201c" -c "mdw 0x1ffff800" -c targets -c "halt" -c "stm32f1x unlock 0;exit"
+	openocd -f audi_stm32feb/fw/stm32feb_ftdi2232hl.cfg -c "init; reset halt" -c "mww 0x40022004 0x45670123" -c "mww 0x40022004 0xCDEF89AB" -c "mww 0x40022008 0x45670123" -c "mww 0x40022008 0xCDEF89AB" -c targets -c "halt" -c "stm32f1x unlock 0; exit"
+	openocd -f audi_stm32feb/fw/stm32feb_ftdi2232hl.cfg -c "init; mdw 0x1ffff7e0; mdw 0x1ffff800; reset halt; stm32f1x unlock 0; sleep 1; program audi_stm32feb.bin 0x8000000; reset;exit"
+

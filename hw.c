@@ -1,4 +1,4 @@
-#include <stdio.h>
+// #include <stdio.h>
 #include <string.h>
 #include <errno.h>
 
@@ -7,7 +7,7 @@
 #include "hw_can.h"
 #include "hw_tick.h"
 #include "hw_usart.h"
-#include "hw_conf.h"
+// #include "hw_conf.h"
 
 #define cm_enable_interrupts() __asm__ __volatile__ ("cpsie i")
 #define cm_disable_interrupts() __asm__ __volatile__ ("cpsid i")
@@ -29,7 +29,7 @@ void hw_setup(void)
 
 	hw_can_setup(hw_can_get_mscan(), e_speed_125);
 
-	hw_conf_setup();
+	// hw_conf_setup();
 
 	cm_enable_interrupts();
 }

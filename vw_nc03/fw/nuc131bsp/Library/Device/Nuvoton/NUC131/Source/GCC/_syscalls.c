@@ -323,7 +323,7 @@ _write(int file __attribute__((unused)), char* ptr __attribute__((unused)),
 //#include <sys/types.h>
 #include <sys/stat.h>
 #include <sys/fcntl.h>
-#include <stdio.h>
+// #include <stdio.h>
 #include <string.h>
 #include <time.h>
 #include <sys/time.h>

@@ -4,7 +4,7 @@
 #include <inttypes.h>
 
 #include "conf.h"
-#include "hw_conf.h"
+// #include "hw_conf.h"
 
 //#define debug 1
 #ifdef debug
@@ -14,8 +14,8 @@
 void mdelay(uint32_t msec);
 #endif
 
-/* sector 63 1KB */
-#define CONF_ADDR     0x0800fc00
+/* sector 31 1KB */
+#define CONF_ADDR     0x08007c00
 #define CONF_SIZE     1024
 uint32_t hw_conf_get_addr(void)
 {
@@ -58,7 +58,7 @@ uint32_t hw_conf_read_word(uint32_t address)
 
 #ifdef debug
 	char buf[100];
-	snprintf(buf, sizeof(buf), "read 0x%x:0x%x\r\n", (unsigned int)address, (unsigned int)r);
+	// snprintf(buf, sizeof(buf), "read 0x%x:0x%x\r\n", (unsigned int)address, (unsigned int)r);
 	hw_usart_write(hw_usart_get(), (uint8_t *)buf, strlen(buf));
 	mdelay(100);
 #endif

@@ -1,0 +1,2675 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+                              main.vo (strlen)
+/usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+                              car.vo (__aeabi_fadd)
+/usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+                              car.vo (__aeabi_fmul)
+/usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunssfsi.o)
+                              car.vo (__aeabi_f2uiz)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .group         0x0000000000000000        0xc main.vo
+ .text          0x0000000000000000        0x0 main.vo
+ .data          0x0000000000000000        0x0 main.vo
+ .bss           0x0000000000000000        0x0 main.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .group         0x0000000000000000        0xc canbox.vo
+ .text          0x0000000000000000        0x0 canbox.vo
+ .data          0x0000000000000000        0x0 canbox.vo
+ .bss           0x0000000000000000        0x0 canbox.vo
+ .text.snd_canbox_msg.constprop.0
+                0x0000000000000000       0x3e canbox.vo
+ .text.canbox_inc_volume
+                0x0000000000000000       0x38 canbox.vo
+ .text.canbox_dec_volume
+                0x0000000000000000       0x38 canbox.vo
+ .text.canbox_prev
+                0x0000000000000000       0x4c canbox.vo
+ .text.canbox_next
+                0x0000000000000000       0x4c canbox.vo
+ .text.canbox_mode
+                0x0000000000000000       0x38 canbox.vo
+ .text.canbox_cont
+                0x0000000000000000       0x38 canbox.vo
+ .text.canbox_mici
+                0x0000000000000000       0x38 canbox.vo
+ .text.canbox_cmd_process
+                0x0000000000000000       0xcc canbox.vo
+ .rodata        0x0000000000000000        0xe canbox.vo
+ .bss.rx_buffer
+                0x0000000000000000       0x20 canbox.vo
+ .bss.rx_idx    0x0000000000000000        0x1 canbox.vo
+ .bss.rx_state  0x0000000000000000        0x1 canbox.vo
+ .debug_info    0x0000000000000000     0x1068 canbox.vo
+ .debug_abbrev  0x0000000000000000      0x3a0 canbox.vo
+ .debug_loc     0x0000000000000000      0x1e5 canbox.vo
+ .debug_aranges
+                0x0000000000000000       0x60 canbox.vo
+ .debug_ranges  0x0000000000000000       0xc0 canbox.vo
+ .debug_macro   0x0000000000000000      0x18b canbox.vo
+ .debug_macro   0x0000000000000000      0xa8a canbox.vo
+ .debug_macro   0x0000000000000000       0x22 canbox.vo
+ .debug_macro   0x0000000000000000       0x52 canbox.vo
+ .debug_macro   0x0000000000000000       0x18 canbox.vo
+ .debug_macro   0x0000000000000000       0x94 canbox.vo
+ .debug_macro   0x0000000000000000       0x35 canbox.vo
+ .debug_macro   0x0000000000000000       0x34 canbox.vo
+ .debug_macro   0x0000000000000000      0x16d canbox.vo
+ .debug_macro   0x0000000000000000       0x16 canbox.vo
+ .debug_macro   0x0000000000000000       0x43 canbox.vo
+ .debug_macro   0x0000000000000000       0x57 canbox.vo
+ .debug_macro   0x0000000000000000       0x34 canbox.vo
+ .debug_macro   0x0000000000000000       0x10 canbox.vo
+ .debug_macro   0x0000000000000000       0x52 canbox.vo
+ .debug_macro   0x0000000000000000      0x182 canbox.vo
+ .debug_macro   0x0000000000000000      0x35c canbox.vo
+ .debug_macro   0x0000000000000000       0x10 canbox.vo
+ .debug_macro   0x0000000000000000       0x35 canbox.vo
+ .debug_macro   0x0000000000000000       0x16 canbox.vo
+ .debug_macro   0x0000000000000000       0x16 canbox.vo
+ .debug_macro   0x0000000000000000       0x29 canbox.vo
+ .debug_macro   0x0000000000000000       0x10 canbox.vo
+ .debug_macro   0x0000000000000000      0x241 canbox.vo
+ .debug_macro   0x0000000000000000      0x103 canbox.vo
+ .debug_macro   0x0000000000000000      0x34e canbox.vo
+ .debug_macro   0x0000000000000000      0x379 canbox.vo
+ .debug_macro   0x0000000000000000       0x10 canbox.vo
+ .debug_line    0x0000000000000000      0x5c5 canbox.vo
+ .debug_str     0x0000000000000000     0x7f39 canbox.vo
+ .comment       0x0000000000000000       0x52 canbox.vo
+ .debug_frame   0x0000000000000000      0x118 canbox.vo
+ .ARM.attributes
+                0x0000000000000000       0x2d canbox.vo
+ .group         0x0000000000000000        0xc ring.vo
+ .group         0x0000000000000000        0xc ring.vo
+ .group         0x0000000000000000        0xc ring.vo
+ .group         0x0000000000000000        0xc ring.vo
+ .group         0x0000000000000000        0xc ring.vo
+ .group         0x0000000000000000        0xc ring.vo
+ .group         0x0000000000000000        0xc ring.vo
+ .group         0x0000000000000000        0xc ring.vo
+ .group         0x0000000000000000        0xc ring.vo
+ .group         0x0000000000000000        0xc ring.vo
+ .group         0x0000000000000000        0xc ring.vo
+ .text          0x0000000000000000        0x0 ring.vo
+ .data          0x0000000000000000        0x0 ring.vo
+ .bss           0x0000000000000000        0x0 ring.vo
+ .text.ring_get_overflow
+                0x0000000000000000        0x4 ring.vo
+ .debug_macro   0x0000000000000000      0xa8a ring.vo
+ .debug_macro   0x0000000000000000       0x22 ring.vo
+ .debug_macro   0x0000000000000000       0x52 ring.vo
+ .debug_macro   0x0000000000000000       0x18 ring.vo
+ .debug_macro   0x0000000000000000       0x94 ring.vo
+ .debug_macro   0x0000000000000000       0x35 ring.vo
+ .debug_macro   0x0000000000000000      0x103 ring.vo
+ .debug_macro   0x0000000000000000      0x34e ring.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .group         0x0000000000000000        0xc conf.vo
+ .text          0x0000000000000000        0x0 conf.vo
+ .data          0x0000000000000000        0x0 conf.vo
+ .bss           0x0000000000000000        0x0 conf.vo
+ .text.conf_get_idx
+                0x0000000000000000        0xc conf.vo
+ .debug_macro   0x0000000000000000      0xa8a conf.vo
+ .debug_macro   0x0000000000000000       0x22 conf.vo
+ .debug_macro   0x0000000000000000       0x52 conf.vo
+ .debug_macro   0x0000000000000000       0x18 conf.vo
+ .debug_macro   0x0000000000000000       0x94 conf.vo
+ .debug_macro   0x0000000000000000       0x35 conf.vo
+ .debug_macro   0x0000000000000000      0x103 conf.vo
+ .debug_macro   0x0000000000000000       0x3a conf.vo
+ .debug_macro   0x0000000000000000      0x34e conf.vo
+ .debug_macro   0x0000000000000000       0x82 conf.vo
+ .debug_macro   0x0000000000000000      0x379 conf.vo
+ .debug_macro   0x0000000000000000       0x16 conf.vo
+ .debug_macro   0x0000000000000000       0x43 conf.vo
+ .debug_macro   0x0000000000000000       0x57 conf.vo
+ .debug_macro   0x0000000000000000       0x34 conf.vo
+ .debug_macro   0x0000000000000000       0x10 conf.vo
+ .debug_macro   0x0000000000000000       0x52 conf.vo
+ .debug_macro   0x0000000000000000      0x182 conf.vo
+ .debug_macro   0x0000000000000000      0x35c conf.vo
+ .debug_macro   0x0000000000000000       0x10 conf.vo
+ .debug_macro   0x0000000000000000       0x35 conf.vo
+ .debug_macro   0x0000000000000000       0x10 conf.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .group         0x0000000000000000        0xc car.vo
+ .text          0x0000000000000000        0x0 car.vo
+ .data          0x0000000000000000        0x0 car.vo
+ .bss           0x0000000000000000        0x0 car.vo
+ .debug_macro   0x0000000000000000      0xa8a car.vo
+ .debug_macro   0x0000000000000000       0x22 car.vo
+ .debug_macro   0x0000000000000000       0x52 car.vo
+ .debug_macro   0x0000000000000000       0x18 car.vo
+ .debug_macro   0x0000000000000000       0x94 car.vo
+ .debug_macro   0x0000000000000000       0x35 car.vo
+ .debug_macro   0x0000000000000000       0x34 car.vo
+ .debug_macro   0x0000000000000000      0x16d car.vo
+ .debug_macro   0x0000000000000000       0x16 car.vo
+ .debug_macro   0x0000000000000000       0x43 car.vo
+ .debug_macro   0x0000000000000000       0x57 car.vo
+ .debug_macro   0x0000000000000000       0x34 car.vo
+ .debug_macro   0x0000000000000000       0x10 car.vo
+ .debug_macro   0x0000000000000000       0x52 car.vo
+ .debug_macro   0x0000000000000000      0x182 car.vo
+ .debug_macro   0x0000000000000000      0x35c car.vo
+ .debug_macro   0x0000000000000000       0x10 car.vo
+ .debug_macro   0x0000000000000000       0x35 car.vo
+ .debug_macro   0x0000000000000000      0x103 car.vo
+ .debug_macro   0x0000000000000000      0x34e car.vo
+ .debug_macro   0x0000000000000000      0x379 car.vo
+ .debug_macro   0x0000000000000000       0x10 car.vo
+ .group         0x0000000000000000        0xc tick.vo
+ .group         0x0000000000000000        0xc tick.vo
+ .group         0x0000000000000000        0xc tick.vo
+ .group         0x0000000000000000        0xc tick.vo
+ .group         0x0000000000000000        0xc tick.vo
+ .group         0x0000000000000000        0xc tick.vo
+ .group         0x0000000000000000        0xc tick.vo
+ .group         0x0000000000000000        0xc tick.vo
+ .group         0x0000000000000000        0xc tick.vo
+ .group         0x0000000000000000        0xc tick.vo
+ .group         0x0000000000000000        0xc tick.vo
+ .group         0x0000000000000000        0xc tick.vo
+ .text          0x0000000000000000        0x0 tick.vo
+ .data          0x0000000000000000        0x0 tick.vo
+ .bss           0x0000000000000000        0x0 tick.vo
+ .debug_macro   0x0000000000000000      0xa8a tick.vo
+ .debug_macro   0x0000000000000000       0x22 tick.vo
+ .debug_macro   0x0000000000000000       0x52 tick.vo
+ .debug_macro   0x0000000000000000       0x18 tick.vo
+ .debug_macro   0x0000000000000000       0x94 tick.vo
+ .debug_macro   0x0000000000000000       0x35 tick.vo
+ .debug_macro   0x0000000000000000      0x103 tick.vo
+ .debug_macro   0x0000000000000000       0x3a tick.vo
+ .debug_macro   0x0000000000000000      0x34e tick.vo
+ .debug_macro   0x0000000000000000       0x82 tick.vo
+ .debug_macro   0x0000000000000000      0x379 tick.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .group         0x0000000000000000        0xc hw.vo
+ .text          0x0000000000000000        0x0 hw.vo
+ .data          0x0000000000000000        0x0 hw.vo
+ .bss           0x0000000000000000        0x0 hw.vo
+ .debug_macro   0x0000000000000000      0xa8a hw.vo
+ .debug_macro   0x0000000000000000       0x22 hw.vo
+ .debug_macro   0x0000000000000000       0x52 hw.vo
+ .debug_macro   0x0000000000000000       0x18 hw.vo
+ .debug_macro   0x0000000000000000       0x94 hw.vo
+ .debug_macro   0x0000000000000000       0x35 hw.vo
+ .debug_macro   0x0000000000000000       0x34 hw.vo
+ .debug_macro   0x0000000000000000      0x16d hw.vo
+ .debug_macro   0x0000000000000000       0x16 hw.vo
+ .debug_macro   0x0000000000000000       0x43 hw.vo
+ .debug_macro   0x0000000000000000       0x57 hw.vo
+ .debug_macro   0x0000000000000000       0x34 hw.vo
+ .debug_macro   0x0000000000000000       0x10 hw.vo
+ .debug_macro   0x0000000000000000       0x52 hw.vo
+ .debug_macro   0x0000000000000000      0x182 hw.vo
+ .debug_macro   0x0000000000000000      0x35c hw.vo
+ .debug_macro   0x0000000000000000       0x10 hw.vo
+ .debug_macro   0x0000000000000000       0x35 hw.vo
+ .debug_macro   0x0000000000000000       0x10 hw.vo
+ .debug_macro   0x0000000000000000      0x241 hw.vo
+ .debug_macro   0x0000000000000000      0x103 hw.vo
+ .debug_macro   0x0000000000000000      0x34e hw.vo
+ .debug_macro   0x0000000000000000      0x379 hw.vo
+ .debug_macro   0x0000000000000000       0x1c hw.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .group         0x0000000000000000        0xc sbrk.vo
+ .text          0x0000000000000000        0x0 sbrk.vo
+ .data          0x0000000000000000        0x0 sbrk.vo
+ .bss           0x0000000000000000        0x0 sbrk.vo
+ .text.__local_ram
+                0x0000000000000000       0x14 sbrk.vo
+ .text._sbrk_r  0x0000000000000000       0x34 sbrk.vo
+ .bss._cur_brk  0x0000000000000000        0x4 sbrk.vo
+ .bss._heap_end
+                0x0000000000000000        0x4 sbrk.vo
+ .debug_info    0x0000000000000000      0xa33 sbrk.vo
+ .debug_abbrev  0x0000000000000000      0x265 sbrk.vo
+ .debug_loc     0x0000000000000000       0x8a sbrk.vo
+ .debug_aranges
+                0x0000000000000000       0x28 sbrk.vo
+ .debug_ranges  0x0000000000000000       0x18 sbrk.vo
+ .debug_macro   0x0000000000000000       0xf1 sbrk.vo
+ .debug_macro   0x0000000000000000      0xa8a sbrk.vo
+ .debug_macro   0x0000000000000000      0x34e sbrk.vo
+ .debug_macro   0x0000000000000000       0x10 sbrk.vo
+ .debug_macro   0x0000000000000000       0x22 sbrk.vo
+ .debug_macro   0x0000000000000000       0x52 sbrk.vo
+ .debug_macro   0x0000000000000000       0x18 sbrk.vo
+ .debug_macro   0x0000000000000000       0x94 sbrk.vo
+ .debug_macro   0x0000000000000000       0x35 sbrk.vo
+ .debug_macro   0x0000000000000000       0x34 sbrk.vo
+ .debug_macro   0x0000000000000000      0x16d sbrk.vo
+ .debug_macro   0x0000000000000000       0x16 sbrk.vo
+ .debug_macro   0x0000000000000000       0x43 sbrk.vo
+ .debug_macro   0x0000000000000000       0x57 sbrk.vo
+ .debug_macro   0x0000000000000000       0x34 sbrk.vo
+ .debug_macro   0x0000000000000000       0x10 sbrk.vo
+ .debug_macro   0x0000000000000000       0x52 sbrk.vo
+ .debug_macro   0x0000000000000000      0x182 sbrk.vo
+ .debug_macro   0x0000000000000000      0x23b sbrk.vo
+ .debug_macro   0x0000000000000000       0x10 sbrk.vo
+ .debug_macro   0x0000000000000000       0x35 sbrk.vo
+ .debug_macro   0x0000000000000000       0x3c sbrk.vo
+ .debug_line    0x0000000000000000      0x1ff sbrk.vo
+ .debug_str     0x0000000000000000     0x5a15 sbrk.vo
+ .comment       0x0000000000000000       0x52 sbrk.vo
+ .debug_frame   0x0000000000000000       0x3c sbrk.vo
+ .ARM.attributes
+                0x0000000000000000       0x2d sbrk.vo
+ .text          0x0000000000000000        0x0 audi_stm32feb/fw/hw_clock.vo
+ .data          0x0000000000000000        0x0 audi_stm32feb/fw/hw_clock.vo
+ .bss           0x0000000000000000        0x0 audi_stm32feb/fw/hw_clock.vo
+ .text          0x0000000000000000        0x0 audi_stm32feb/fw/hw_can.vo
+ .data          0x0000000000000000        0x0 audi_stm32feb/fw/hw_can.vo
+ .bss           0x0000000000000000        0x0 audi_stm32feb/fw/hw_can.vo
+ .text.hw_can_snd_msg
+                0x0000000000000000       0x3a audi_stm32feb/fw/hw_can.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .group         0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .text          0x0000000000000000        0x0 audi_stm32feb/fw/hw_gpio.vo
+ .data          0x0000000000000000        0x0 audi_stm32feb/fw/hw_gpio.vo
+ .bss           0x0000000000000000        0x0 audi_stm32feb/fw/hw_gpio.vo
+ .text.hw_gpio_rear_on
+                0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .text.hw_gpio_rear_off
+                0x0000000000000000        0xc audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x0000000000000000      0xa8a audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x0000000000000000      0x34e audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x0000000000000000       0x22 audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x0000000000000000       0x52 audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x0000000000000000       0x18 audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x0000000000000000       0x94 audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x0000000000000000       0x35 audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x0000000000000000      0x103 audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x0000000000000000       0x3a audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x0000000000000000       0x82 audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x0000000000000000      0x379 audi_stm32feb/fw/hw_gpio.vo
+ .text          0x0000000000000000        0x0 audi_stm32feb/fw/hw_tick.vo
+ .data          0x0000000000000000        0x0 audi_stm32feb/fw/hw_tick.vo
+ .bss           0x0000000000000000        0x0 audi_stm32feb/fw/hw_tick.vo
+ .text          0x0000000000000000        0x0 audi_stm32feb/fw/hw_usart.vo
+ .data          0x0000000000000000        0x0 audi_stm32feb/fw/hw_usart.vo
+ .bss           0x0000000000000000        0x0 audi_stm32feb/fw/hw_usart.vo
+ .text.hw_usart_get_rx_overflow
+                0x0000000000000000        0x6 audi_stm32feb/fw/hw_usart.vo
+ .text.hw_usart_get_tx_overflow
+                0x0000000000000000        0x6 audi_stm32feb/fw/hw_usart.vo
+ .text.hw_usart_get_tx
+                0x0000000000000000        0x4 audi_stm32feb/fw/hw_usart.vo
+ .text.hw_usart_get_rx
+                0x0000000000000000        0x4 audi_stm32feb/fw/hw_usart.vo
+ .text          0x0000000000000000        0x0 audi_stm32feb/fw/hw_sleep.vo
+ .data          0x0000000000000000        0x0 audi_stm32feb/fw/hw_sleep.vo
+ .bss           0x0000000000000000        0x0 audi_stm32feb/fw/hw_sleep.vo
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/gpio.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/gpio.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/gpio.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/gpio.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/gpio.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/gpio.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/gpio.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/gpio.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .text.gpio_set_eventout
+                0x0000000000000000       0x10 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .text.gpio_primary_remap
+                0x0000000000000000       0x18 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .text.gpio_secondary_remap
+                0x0000000000000000       0x10 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/stm32/f1/gpio.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/stm32/f1/gpio.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/stm32/f1/gpio.stm32f1
+ .debug_macro   0x0000000000000000       0x58 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .debug_macro   0x0000000000000000      0x1b4 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .debug_macro   0x0000000000000000       0x76 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .debug_macro   0x0000000000000000      0xdfd libopencm3/lib/stm32/f1/gpio.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/rcc.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/rcc.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/rcc.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/rcc.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/rcc.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/rcc.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/rcc.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/rcc.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/rcc.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_osc_ready_int_clear
+                0x0000000000000000       0x5c libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_osc_ready_int_enable
+                0x0000000000000000       0x5c libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_osc_ready_int_disable
+                0x0000000000000000       0x5c libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_osc_ready_int_flag
+                0x0000000000000000       0x54 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_css_int_clear
+                0x0000000000000000       0x10 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_css_int_flag
+                0x0000000000000000       0x10 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_osc_off
+                0x0000000000000000       0x58 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_css_enable
+                0x0000000000000000       0x10 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_css_disable
+                0x0000000000000000       0x10 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_osc_bypass_enable
+                0x0000000000000000       0x28 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_osc_bypass_disable
+                0x0000000000000000       0x28 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_set_pll2_multiplication_factor
+                0x0000000000000000       0x14 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_set_pll3_multiplication_factor
+                0x0000000000000000       0x14 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_rtc_clock_enabled_flag
+                0x0000000000000000       0x10 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_enable_rtc_clock
+                0x0000000000000000       0x10 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_set_rtc_clock_source
+                0x0000000000000000       0x90 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_set_usbpre
+                0x0000000000000000       0x18 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_set_prediv1
+                0x0000000000000000       0x14 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_set_prediv2
+                0x0000000000000000       0x14 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_set_prediv1_source
+                0x0000000000000000       0x18 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_system_clock_source
+                0x0000000000000000       0x10 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_clock_setup_in_hsi_out_64mhz
+                0x0000000000000000       0x74 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_clock_setup_in_hsi_out_48mhz
+                0x0000000000000000       0x84 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_clock_setup_in_hsi_out_24mhz
+                0x0000000000000000       0x70 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_clock_setup_in_hse_8mhz_out_24mhz
+                0x0000000000000000       0x88 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_clock_setup_in_hse_12mhz_out_72mhz
+                0x0000000000000000       0x8c libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_clock_setup_in_hse_16mhz_out_72mhz
+                0x0000000000000000       0x8c libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_clock_setup_in_hse_25mhz_out_72mhz
+                0x0000000000000000       0xac libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_backupdomain_reset
+                0x0000000000000000       0x18 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_macro   0x0000000000000000       0x58 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_macro   0x0000000000000000      0x1b4 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_macro   0x0000000000000000      0x825 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/pwr.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/pwr.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/pwr.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/pwr.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/pwr.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/pwr.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/pwr.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/stm32/f1/pwr.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/stm32/f1/pwr.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/stm32/f1/pwr.stm32f1
+ .debug_info    0x0000000000000000       0x68 libopencm3/lib/stm32/f1/pwr.stm32f1
+ .debug_abbrev  0x0000000000000000       0x29 libopencm3/lib/stm32/f1/pwr.stm32f1
+ .debug_aranges
+                0x0000000000000000       0x18 libopencm3/lib/stm32/f1/pwr.stm32f1
+ .debug_macro   0x0000000000000000       0x6b libopencm3/lib/stm32/f1/pwr.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/stm32/f1/pwr.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/stm32/f1/pwr.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/stm32/f1/pwr.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/stm32/f1/pwr.stm32f1
+ .debug_macro   0x0000000000000000       0x58 libopencm3/lib/stm32/f1/pwr.stm32f1
+ .debug_macro   0x0000000000000000      0x1b4 libopencm3/lib/stm32/f1/pwr.stm32f1
+ .debug_macro   0x0000000000000000       0x8e libopencm3/lib/stm32/f1/pwr.stm32f1
+ .debug_line    0x0000000000000000      0x177 libopencm3/lib/stm32/f1/pwr.stm32f1
+ .debug_str     0x0000000000000000     0x4ba1 libopencm3/lib/stm32/f1/pwr.stm32f1
+ .comment       0x0000000000000000       0x52 libopencm3/lib/stm32/f1/pwr.stm32f1
+ .ARM.attributes
+                0x0000000000000000       0x33 libopencm3/lib/stm32/f1/pwr.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/flash.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/flash.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/flash.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/flash.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/flash.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/flash.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/flash.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/f1/flash.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/stm32/f1/flash.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/stm32/f1/flash.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/stm32/f1/flash.stm32f1
+ .text.flash_halfcycle_enable
+                0x0000000000000000       0x10 libopencm3/lib/stm32/f1/flash.stm32f1
+ .text.flash_halfcycle_disable
+                0x0000000000000000       0x10 libopencm3/lib/stm32/f1/flash.stm32f1
+ .text.flash_unlock_upper
+                0x0000000000000000       0x34 libopencm3/lib/stm32/f1/flash.stm32f1
+ .text.flash_lock_upper
+                0x0000000000000000       0x10 libopencm3/lib/stm32/f1/flash.stm32f1
+ .text.flash_clear_pgerr_flag_upper
+                0x0000000000000000       0x20 libopencm3/lib/stm32/f1/flash.stm32f1
+ .text.flash_clear_eop_flag_upper
+                0x0000000000000000       0x20 libopencm3/lib/stm32/f1/flash.stm32f1
+ .text.flash_clear_wrprterr_flag_upper
+                0x0000000000000000       0x20 libopencm3/lib/stm32/f1/flash.stm32f1
+ .text.flash_clear_bsy_flag_upper
+                0x0000000000000000       0x20 libopencm3/lib/stm32/f1/flash.stm32f1
+ .text.flash_clear_status_flags
+                0x0000000000000000       0x38 libopencm3/lib/stm32/f1/flash.stm32f1
+ .text.flash_get_status_flags
+                0x0000000000000000       0x28 libopencm3/lib/stm32/f1/flash.stm32f1
+ .text.flash_program_half_word
+                0x0000000000000000       0x60 libopencm3/lib/stm32/f1/flash.stm32f1
+ .text.flash_erase_page
+                0x0000000000000000       0x78 libopencm3/lib/stm32/f1/flash.stm32f1
+ .text.flash_erase_all_pages
+                0x0000000000000000       0x48 libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_info    0x0000000000000000      0x325 libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_abbrev  0x0000000000000000      0x14f libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_loc     0x0000000000000000       0x90 libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_aranges
+                0x0000000000000000       0x80 libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_ranges  0x0000000000000000       0x70 libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_macro   0x0000000000000000       0x76 libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_macro   0x0000000000000000       0x58 libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_macro   0x0000000000000000      0x1b4 libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_macro   0x0000000000000000       0xdc libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_macro   0x0000000000000000       0x82 libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_line    0x0000000000000000      0x46d libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_str     0x0000000000000000     0x5235 libopencm3/lib/stm32/f1/flash.stm32f1
+ .comment       0x0000000000000000       0x52 libopencm3/lib/stm32/f1/flash.stm32f1
+ .debug_frame   0x0000000000000000      0x10c libopencm3/lib/stm32/f1/flash.stm32f1
+ .ARM.attributes
+                0x0000000000000000       0x2d libopencm3/lib/stm32/f1/flash.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .text.gpio_get
+                0x0000000000000000        0x6 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .text.gpio_toggle
+                0x0000000000000000       0x12 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .text.gpio_port_read
+                0x0000000000000000        0x6 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .text.gpio_port_write
+                0x0000000000000000        0x4 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .text.gpio_port_config_lock
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x58 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0x1b4 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x76 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0xdfd libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .text.usart_send_blocking
+                0x0000000000000000       0x16 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .text.usart_recv_blocking
+                0x0000000000000000       0x12 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .text.usart_enable_rx_dma
+                0x0000000000000000        0xa libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .text.usart_disable_rx_dma
+                0x0000000000000000        0xa libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .text.usart_enable_tx_dma
+                0x0000000000000000        0xa libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .text.usart_disable_tx_dma
+                0x0000000000000000        0xa libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .text.usart_enable_rx_interrupt
+                0x0000000000000000        0xa libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .text.usart_disable_rx_interrupt
+                0x0000000000000000        0xa libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .text.usart_enable_tx_interrupt
+                0x0000000000000000        0xa libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .text.usart_disable_tx_interrupt
+                0x0000000000000000        0xa libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .text.usart_enable_error_interrupt
+                0x0000000000000000        0xa libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .text.usart_disable_error_interrupt
+                0x0000000000000000        0xa libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x58 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0x1b4 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0x825 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .text.usart_wait_send_ready
+                0x0000000000000000        0x8 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .text.usart_wait_recv_ready
+                0x0000000000000000        0x8 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .text.usart_get_flag
+                0x0000000000000000        0xc libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .text.usart_get_interrupt_source
+                0x0000000000000000       0x2c libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_macro   0x0000000000000000       0x58 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_macro   0x0000000000000000      0x1b4 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_macro   0x0000000000000000       0x8e libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_macro   0x0000000000000000      0x273 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_macro   0x0000000000000000      0x825 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .text.rcc_peripheral_enable_clock
+                0x0000000000000000        0x8 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .text.rcc_peripheral_disable_clock
+                0x0000000000000000        0xa libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .text.rcc_periph_reset_pulse
+                0x0000000000000000       0x22 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .text.rcc_periph_reset_hold
+                0x0000000000000000       0x1a libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .text.rcc_periph_reset_release
+                0x0000000000000000       0x1e libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .text.rcc_set_mco
+                0x0000000000000000       0x14 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x58 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0x1b4 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0x825 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .text.pwr_disable_backup_domain_write_protect
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .text.pwr_enable_backup_domain_write_protect
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .text.pwr_enable_power_voltage_detect
+                0x0000000000000000       0x1c libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .text.pwr_disable_power_voltage_detect
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .text.pwr_clear_standby_flag
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .text.pwr_set_standby_mode
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .text.pwr_voltage_regulator_on_in_stop
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .text.pwr_enable_wakeup_pin
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .text.pwr_disable_wakeup_pin
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .text.pwr_voltage_high
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .text.pwr_get_standby_flag
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .text.pwr_get_wakeup_flag
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x58 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0x1b4 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x8e libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/vector.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/vector.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/vector.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/vector.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/vector.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/vector.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/vector.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/vector.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/cm3/vector.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/cm3/vector.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/cm3/vector.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/cm3/vector.stm32f1
+ .debug_macro   0x0000000000000000       0x58 libopencm3/lib/cm3/vector.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/cm3/vector.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/cm3/vector.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/cm3/vector.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/systick.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/systick.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/systick.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/systick.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/systick.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/systick.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/cm3/systick.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/cm3/systick.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/cm3/systick.stm32f1
+ .text.systick_get_reload
+                0x0000000000000000       0x10 libopencm3/lib/cm3/systick.stm32f1
+ .text.systick_get_value
+                0x0000000000000000       0x10 libopencm3/lib/cm3/systick.stm32f1
+ .text.systick_set_frequency
+                0x0000000000000000       0x3c libopencm3/lib/cm3/systick.stm32f1
+ .text.systick_get_countflag
+                0x0000000000000000       0x10 libopencm3/lib/cm3/systick.stm32f1
+ .text.systick_clear
+                0x0000000000000000        0xc libopencm3/lib/cm3/systick.stm32f1
+ .text.systick_get_calib
+                0x0000000000000000       0x10 libopencm3/lib/cm3/systick.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/cm3/systick.stm32f1
+ .debug_macro   0x0000000000000000       0x58 libopencm3/lib/cm3/systick.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/cm3/systick.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/cm3/systick.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/cm3/systick.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/nvic.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/nvic.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/nvic.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/nvic.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/nvic.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/nvic.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/nvic.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/nvic.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/cm3/nvic.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/cm3/nvic.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/cm3/nvic.stm32f1
+ .text.nvic_get_pending_irq
+                0x0000000000000000       0x22 libopencm3/lib/cm3/nvic.stm32f1
+ .text.nvic_set_pending_irq
+                0x0000000000000000       0x1a libopencm3/lib/cm3/nvic.stm32f1
+ .text.nvic_clear_pending_irq
+                0x0000000000000000       0x18 libopencm3/lib/cm3/nvic.stm32f1
+ .text.nvic_get_irq_enabled
+                0x0000000000000000       0x22 libopencm3/lib/cm3/nvic.stm32f1
+ .text.nvic_get_active_irq
+                0x0000000000000000       0x22 libopencm3/lib/cm3/nvic.stm32f1
+ .text.nvic_generate_software_interrupt
+                0x0000000000000000       0x14 libopencm3/lib/cm3/nvic.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/cm3/nvic.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/cm3/nvic.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/cm3/nvic.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/cm3/nvic.stm32f1
+ .debug_macro   0x0000000000000000       0x58 libopencm3/lib/cm3/nvic.stm32f1
+ .debug_macro   0x0000000000000000      0x1a2 libopencm3/lib/cm3/nvic.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/sync.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/sync.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/sync.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/sync.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/cm3/sync.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/cm3/sync.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/cm3/sync.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/cm3/sync.stm32f1
+ .text.__dmb    0x0000000000000000        0x6 libopencm3/lib/cm3/sync.stm32f1
+ .text.__ldrex  0x0000000000000000        0x6 libopencm3/lib/cm3/sync.stm32f1
+ .text.__strex  0x0000000000000000        0x8 libopencm3/lib/cm3/sync.stm32f1
+ .text.mutex_trylock
+                0x0000000000000000       0x1c libopencm3/lib/cm3/sync.stm32f1
+ .text.mutex_lock
+                0x0000000000000000       0x10 libopencm3/lib/cm3/sync.stm32f1
+ .text.mutex_unlock
+                0x0000000000000000        0xa libopencm3/lib/cm3/sync.stm32f1
+ .debug_info    0x0000000000000000      0x2c0 libopencm3/lib/cm3/sync.stm32f1
+ .debug_abbrev  0x0000000000000000      0x1b7 libopencm3/lib/cm3/sync.stm32f1
+ .debug_loc     0x0000000000000000      0x163 libopencm3/lib/cm3/sync.stm32f1
+ .debug_aranges
+                0x0000000000000000       0x48 libopencm3/lib/cm3/sync.stm32f1
+ .debug_ranges  0x0000000000000000       0x38 libopencm3/lib/cm3/sync.stm32f1
+ .debug_macro   0x0000000000000000       0x41 libopencm3/lib/cm3/sync.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/cm3/sync.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/cm3/sync.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/cm3/sync.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/cm3/sync.stm32f1
+ .debug_macro   0x0000000000000000       0x10 libopencm3/lib/cm3/sync.stm32f1
+ .debug_line    0x0000000000000000      0x1ab libopencm3/lib/cm3/sync.stm32f1
+ .debug_str     0x0000000000000000     0x3c5f libopencm3/lib/cm3/sync.stm32f1
+ .comment       0x0000000000000000       0x52 libopencm3/lib/cm3/sync.stm32f1
+ .debug_frame   0x0000000000000000       0x78 libopencm3/lib/cm3/sync.stm32f1
+ .ARM.attributes
+                0x0000000000000000       0x2d libopencm3/lib/cm3/sync.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .text.flash_prefetch_buffer_enable
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .text.flash_prefetch_buffer_disable
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .text.flash_unlock
+                0x0000000000000000       0x24 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .text.flash_lock
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .text.flash_clear_pgerr_flag
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .text.flash_clear_eop_flag
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .text.flash_clear_wrprterr_flag
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .text.flash_clear_bsy_flag
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .text.flash_wait_for_last_operation
+                0x0000000000000000        0xc libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .text.flash_program_word
+                0x0000000000000000       0x18 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .text.flash_unlock_option_bytes
+                0x0000000000000000       0x18 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .text.flash_erase_option_bytes
+                0x0000000000000000       0x34 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .text.flash_program_option_bytes
+                0x0000000000000000       0x34 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .debug_macro   0x0000000000000000       0x58 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .debug_macro   0x0000000000000000      0x1b4 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .debug_macro   0x0000000000000000       0xdc libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .debug_macro   0x0000000000000000       0x82 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/can.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/can.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/can.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/can.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/can.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/can.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/can.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/can.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/stm32/can.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/stm32/can.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/stm32/can.stm32f1
+ .text.can_filter_id_mask_16bit_init
+                0x0000000000000000       0x26 libopencm3/lib/stm32/can.stm32f1
+ .text.can_filter_id_list_16bit_init
+                0x0000000000000000       0x26 libopencm3/lib/stm32/can.stm32f1
+ .text.can_filter_id_list_32bit_init
+                0x0000000000000000       0x1c libopencm3/lib/stm32/can.stm32f1
+ .text.can_transmit
+                0x0000000000000000       0xca libopencm3/lib/stm32/can.stm32f1
+ .text.can_available_mailbox
+                0x0000000000000000        0xe libopencm3/lib/stm32/can.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/stm32/can.stm32f1
+ .debug_macro   0x0000000000000000       0x58 libopencm3/lib/stm32/can.stm32f1
+ .debug_macro   0x0000000000000000      0x1b4 libopencm3/lib/stm32/can.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/stm32/can.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/stm32/can.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/stm32/can.stm32f1
+ .debug_macro   0x0000000000000000      0x825 libopencm3/lib/stm32/can.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .text.iwdg_start
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .text.iwdg_reload_busy
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .text.iwdg_prescaler_busy
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .text.iwdg_set_period_ms
+                0x0000000000000000       0x90 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .text.iwdg_reset
+                0x0000000000000000       0x10 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .debug_info    0x0000000000000000      0x160 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .debug_abbrev  0x0000000000000000       0xc1 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .debug_loc     0x0000000000000000      0x21d libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .debug_aranges
+                0x0000000000000000       0x40 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .debug_ranges  0x0000000000000000       0x30 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x7d libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x58 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0x1b4 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x70 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .debug_line    0x0000000000000000      0x324 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .debug_str     0x0000000000000000     0x4b61 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .comment       0x0000000000000000       0x52 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .debug_frame   0x0000000000000000       0x68 libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .ARM.attributes
+                0x0000000000000000       0x2d libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .group         0x0000000000000000        0xc libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .text          0x0000000000000000        0x0 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .data          0x0000000000000000        0x0 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .bss           0x0000000000000000        0x0 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .text.exti_get_flag_status
+                0x0000000000000000        0xc libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0xa8a libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0x34e libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x22 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0xfa libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x58 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0x1b4 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .debug_macro   0x0000000000000000       0x76 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .debug_macro   0x0000000000000000      0xdfd libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunssfsi.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000008000000 0x0000000000008000 xr
+ram              0x0000000020000000 0x0000000000002800 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD main.vo
+LOAD canbox.vo
+LOAD ring.vo
+LOAD conf.vo
+LOAD car.vo
+LOAD tick.vo
+LOAD hw.vo
+LOAD sbrk.vo
+LOAD audi_stm32feb/fw/hw_clock.vo
+LOAD audi_stm32feb/fw/hw_can.vo
+LOAD audi_stm32feb/fw/hw_gpio.vo
+LOAD audi_stm32feb/fw/hw_tick.vo
+LOAD audi_stm32feb/fw/hw_usart.vo
+LOAD audi_stm32feb/fw/hw_sleep.vo
+LOAD libopencm3/lib/stm32/f1/gpio.stm32f1
+LOAD libopencm3/lib/stm32/f1/rcc.stm32f1
+LOAD libopencm3/lib/stm32/f1/pwr.stm32f1
+LOAD libopencm3/lib/stm32/f1/flash.stm32f1
+LOAD libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+LOAD libopencm3/lib/stm32/common/usart_common_all.stm32f1
+LOAD libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+LOAD libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+LOAD libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+LOAD libopencm3/lib/cm3/vector.stm32f1
+LOAD libopencm3/lib/cm3/systick.stm32f1
+LOAD libopencm3/lib/cm3/nvic.stm32f1
+LOAD libopencm3/lib/cm3/sync.stm32f1
+LOAD libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+LOAD libopencm3/lib/stm32/can.stm32f1
+LOAD libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+LOAD libopencm3/lib/stm32/common/exti_common_all.stm32f1
+LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libm.a
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a
+END GROUP
+
+.text           0x0000000008000000     0x1ea0
+ *(.vectors)
+ .vectors       0x0000000008000000      0x150 libopencm3/lib/cm3/vector.stm32f1
+                0x0000000008000000                vector_table
+ *(.text*)
+ .text.clr_rscreen
+                0x0000000008000150       0x3c main.vo
+ .text.print_line
+                0x000000000800018c       0x1e main.vo
+ *fill*         0x00000000080001aa        0x2 
+ .text.clr_screen
+                0x00000000080001ac       0x3c main.vo
+ .text.print_sniffer
+                0x00000000080001e8       0xb8 main.vo
+                0x00000000080001e8                print_sniffer
+ .text.print_debug
+                0x00000000080002a0      0x108 main.vo
+                0x00000000080002a0                print_debug
+ .text.startup.main
+                0x00000000080003a8      0x294 main.vo
+                0x00000000080003a8                main
+ .text.ring_init
+                0x000000000800063c        0xe ring.vo
+                0x000000000800063c                ring_init
+ .text.ring_write_ch
+                0x000000000800064a       0x3e ring.vo
+                0x000000000800064a                ring_write_ch
+ .text.ring_write
+                0x0000000008000688       0x24 ring.vo
+                0x0000000008000688                ring_write
+ .text.ring_read_ch
+                0x00000000080006ac       0x2c ring.vo
+                0x00000000080006ac                ring_read_ch
+ .text.conf_write
+                0x00000000080006d8        0x2 conf.vo
+                0x00000000080006d8                conf_write
+ .text.conf_read
+                0x00000000080006da        0x2 conf.vo
+                0x00000000080006da                conf_read
+ .text.conf_get_car
+                0x00000000080006dc        0x4 conf.vo
+                0x00000000080006dc                conf_get_car
+ .text.conf_set_car
+                0x00000000080006e0       0x10 conf.vo
+                0x00000000080006e0                conf_set_car
+ .text.conf_get_illum
+                0x00000000080006f0        0xc conf.vo
+                0x00000000080006f0                conf_get_illum
+ .text.conf_set_illum
+                0x00000000080006fc       0x10 conf.vo
+                0x00000000080006fc                conf_set_illum
+ .text.conf_get_rear_delay
+                0x000000000800070c        0xc conf.vo
+                0x000000000800070c                conf_get_rear_delay
+ .text.conf_set_rear_delay
+                0x0000000008000718       0x10 conf.vo
+                0x0000000008000718                conf_set_rear_delay
+ .text.conf_get_canbox
+                0x0000000008000728        0xc conf.vo
+                0x0000000008000728                conf_get_canbox
+ .text.conf_set_canbox
+                0x0000000008000734       0x10 conf.vo
+                0x0000000008000734                conf_set_canbox
+ .text.in_process
+                0x0000000008000744       0xa2 car.vo
+ .text.is_timeout
+                0x00000000080007e6       0x12 car.vo
+                0x00000000080007e6                is_timeout
+ .text.anymsg_handler
+                0x00000000080007f8       0x1c car.vo
+ .text.q3_2015_ms_635_handler
+                0x0000000008000814       0x40 car.vo
+ .text.q3_2015_ms_2c3_handler
+                0x0000000008000854       0x2c car.vo
+ .text.car_get_next_car
+                0x0000000008000880       0x14 car.vo
+                0x0000000008000880                car_get_next_car
+ .text.car_init
+                0x0000000008000894       0x34 car.vo
+                0x0000000008000894                car_init
+ .text.car_get_car
+                0x00000000080008c8        0xc car.vo
+                0x00000000080008c8                car_get_car
+ .text.car_process
+                0x00000000080008d4       0x44 car.vo
+                0x00000000080008d4                car_process
+ .text.car_get_acc
+                0x0000000008000918       0x10 car.vo
+                0x0000000008000918                car_get_acc
+ .text.car_get_ign
+                0x0000000008000928       0x10 car.vo
+                0x0000000008000928                car_get_ign
+ .text.car_get_illum
+                0x0000000008000938       0x10 car.vo
+                0x0000000008000938                car_get_illum
+ .text.hw_systick_callback
+                0x0000000008000948       0x90 tick.vo
+                0x0000000008000948                hw_systick_callback
+ .text.hw_setup
+                0x00000000080009d8       0x44 hw.vo
+                0x00000000080009d8                hw_setup
+ .text.hw_sleep
+                0x0000000008000a1c       0x26 hw.vo
+                0x0000000008000a1c                hw_sleep
+ .text.hw_clock_setup
+                0x0000000008000a42       0x12 audi_stm32feb/fw/hw_clock.vo
+                0x0000000008000a42                hw_clock_setup
+ .text.hw_can_get_mscan
+                0x0000000008000a54        0x8 audi_stm32feb/fw/hw_can.vo
+                0x0000000008000a54                hw_can_get_mscan
+ .text.hw_can_set_speed
+                0x0000000008000a5c       0x7c audi_stm32feb/fw/hw_can.vo
+                0x0000000008000a5c                hw_can_set_speed
+ .text.hw_can_setup
+                0x0000000008000ad8       0x7a audi_stm32feb/fw/hw_can.vo
+                0x0000000008000ad8                hw_can_setup
+ .text.hw_can_disable
+                0x0000000008000b52       0x5c audi_stm32feb/fw/hw_can.vo
+                0x0000000008000b52                hw_can_disable
+ .text.hw_can_get_msg_nums
+                0x0000000008000bae        0x6 audi_stm32feb/fw/hw_can.vo
+                0x0000000008000bae                hw_can_get_msg_nums
+ .text.hw_can_get_pack_nums
+                0x0000000008000bb4        0x4 audi_stm32feb/fw/hw_can.vo
+                0x0000000008000bb4                hw_can_get_pack_nums
+ .text.hw_can_get_msg
+                0x0000000008000bb8       0x2c audi_stm32feb/fw/hw_can.vo
+                0x0000000008000bb8                hw_can_get_msg
+ .text.usb_lp_can_rx0_isr
+                0x0000000008000be4      0x114 audi_stm32feb/fw/hw_can.vo
+                0x0000000008000be4                usb_lp_can_rx0_isr
+ .text.hw_can_clr
+                0x0000000008000cf8        0xa audi_stm32feb/fw/hw_can.vo
+                0x0000000008000cf8                hw_can_clr
+ .text.hw_can_sleep
+                0x0000000008000d02       0x6a audi_stm32feb/fw/hw_can.vo
+                0x0000000008000d02                hw_can_sleep
+ .text.exti15_10_isr
+                0x0000000008000d6c        0x8 audi_stm32feb/fw/hw_can.vo
+                0x0000000008000d6c                exti15_10_isr
+ .text.hw_gpio_set
+                0x0000000008000d74        0x8 audi_stm32feb/fw/hw_gpio.vo
+                0x0000000008000d74                hw_gpio_set
+ .text.hw_gpio_clr
+                0x0000000008000d7c        0x8 audi_stm32feb/fw/hw_gpio.vo
+                0x0000000008000d7c                hw_gpio_clr
+ .text.hw_gpio_set_float
+                0x0000000008000d84        0xc audi_stm32feb/fw/hw_gpio.vo
+                0x0000000008000d84                hw_gpio_set_float
+ .text.hw_gpio_setup
+                0x0000000008000d90       0x68 audi_stm32feb/fw/hw_gpio.vo
+                0x0000000008000d90                hw_gpio_setup
+ .text.hw_gpio_disable
+                0x0000000008000df8       0x24 audi_stm32feb/fw/hw_gpio.vo
+                0x0000000008000df8                hw_gpio_disable
+ .text.hw_gpio_acc_on
+                0x0000000008000e1c        0xc audi_stm32feb/fw/hw_gpio.vo
+                0x0000000008000e1c                hw_gpio_acc_on
+ .text.hw_gpio_acc_off
+                0x0000000008000e28        0xc audi_stm32feb/fw/hw_gpio.vo
+                0x0000000008000e28                hw_gpio_acc_off
+ .text.hw_gpio_ill_on
+                0x0000000008000e34        0xc audi_stm32feb/fw/hw_gpio.vo
+                0x0000000008000e34                hw_gpio_ill_on
+ .text.hw_gpio_ill_off
+                0x0000000008000e40        0xc audi_stm32feb/fw/hw_gpio.vo
+                0x0000000008000e40                hw_gpio_ill_off
+ .text.hw_systick_disable
+                0x0000000008000e4c        0xe audi_stm32feb/fw/hw_tick.vo
+                0x0000000008000e4c                hw_systick_disable
+ *fill*         0x0000000008000e5a        0x2 
+ .text.hw_systick_setup
+                0x0000000008000e5c       0x28 audi_stm32feb/fw/hw_tick.vo
+                0x0000000008000e5c                hw_systick_setup
+ .text.sys_tick_handler
+                0x0000000008000e84        0x4 audi_stm32feb/fw/hw_tick.vo
+                0x0000000008000e84                sys_tick_handler
+ .text.hw_usart_get
+                0x0000000008000e88        0x8 audi_stm32feb/fw/hw_usart.vo
+                0x0000000008000e88                hw_usart_get
+ .text.hw_usart_setup
+                0x0000000008000e90       0x96 audi_stm32feb/fw/hw_usart.vo
+                0x0000000008000e90                hw_usart_setup
+ *fill*         0x0000000008000f26        0x2 
+ .text.usart_isr
+                0x0000000008000f28       0x74 audi_stm32feb/fw/hw_usart.vo
+                0x0000000008000f28                usart_isr
+ .text.usart1_isr
+                0x0000000008000f9c        0xc audi_stm32feb/fw/hw_usart.vo
+                0x0000000008000f9c                usart1_isr
+ .text.hw_usart_write
+                0x0000000008000fa8       0x18 audi_stm32feb/fw/hw_usart.vo
+                0x0000000008000fa8                hw_usart_write
+ .text.hw_usart_disable
+                0x0000000008000fc0       0x20 audi_stm32feb/fw/hw_usart.vo
+                0x0000000008000fc0                hw_usart_disable
+ .text.hw_usart_read_ch
+                0x0000000008000fe0        0x6 audi_stm32feb/fw/hw_usart.vo
+                0x0000000008000fe0                hw_usart_read_ch
+ *fill*         0x0000000008000fe6        0x2 
+ .text.hw_cpu_sleep
+                0x0000000008000fe8       0x40 audi_stm32feb/fw/hw_sleep.vo
+                0x0000000008000fe8                hw_cpu_sleep
+ .text.gpio_set_mode
+                0x0000000008001028       0x5e libopencm3/lib/stm32/f1/gpio.stm32f1
+                0x0000000008001028                gpio_set_mode
+ *fill*         0x0000000008001086        0x2 
+ .text.rcc_osc_on.part.0
+                0x0000000008001088       0x10 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .text.rcc_wait_for_osc_ready
+                0x0000000008001098       0x64 libopencm3/lib/stm32/f1/rcc.stm32f1
+                0x0000000008001098                rcc_wait_for_osc_ready
+ .text.rcc_osc_on
+                0x00000000080010fc       0x54 libopencm3/lib/stm32/f1/rcc.stm32f1
+                0x00000000080010fc                rcc_osc_on
+ .text.rcc_set_sysclk_source
+                0x0000000008001150       0x14 libopencm3/lib/stm32/f1/rcc.stm32f1
+                0x0000000008001150                rcc_set_sysclk_source
+ .text.rcc_set_pll_multiplication_factor
+                0x0000000008001164       0x14 libopencm3/lib/stm32/f1/rcc.stm32f1
+                0x0000000008001164                rcc_set_pll_multiplication_factor
+ .text.rcc_set_pll_source
+                0x0000000008001178       0x14 libopencm3/lib/stm32/f1/rcc.stm32f1
+                0x0000000008001178                rcc_set_pll_source
+ .text.rcc_set_pllxtpre
+                0x000000000800118c       0x14 libopencm3/lib/stm32/f1/rcc.stm32f1
+                0x000000000800118c                rcc_set_pllxtpre
+ .text.rcc_set_adcpre
+                0x00000000080011a0       0x14 libopencm3/lib/stm32/f1/rcc.stm32f1
+                0x00000000080011a0                rcc_set_adcpre
+ .text.rcc_set_ppre2
+                0x00000000080011b4       0x14 libopencm3/lib/stm32/f1/rcc.stm32f1
+                0x00000000080011b4                rcc_set_ppre2
+ .text.rcc_set_ppre1
+                0x00000000080011c8       0x14 libopencm3/lib/stm32/f1/rcc.stm32f1
+                0x00000000080011c8                rcc_set_ppre1
+ .text.rcc_set_hpre
+                0x00000000080011dc       0x14 libopencm3/lib/stm32/f1/rcc.stm32f1
+                0x00000000080011dc                rcc_set_hpre
+ .text.rcc_clock_setup_in_hse_8mhz_out_72mhz
+                0x00000000080011f0       0x8c libopencm3/lib/stm32/f1/rcc.stm32f1
+                0x00000000080011f0                rcc_clock_setup_in_hse_8mhz_out_72mhz
+ .text.gpio_set
+                0x000000000800127c        0x4 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+                0x000000000800127c                gpio_set
+ .text.gpio_clear
+                0x0000000008001280        0x6 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+                0x0000000008001280                gpio_clear
+ *fill*         0x0000000008001286        0x2 
+ .text.usart_set_baudrate
+                0x0000000008001288       0x28 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                0x0000000008001288                usart_set_baudrate
+ .text.usart_set_databits
+                0x00000000080012b0       0x12 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                0x00000000080012b0                usart_set_databits
+ .text.usart_set_stopbits
+                0x00000000080012c2        0xc libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                0x00000000080012c2                usart_set_stopbits
+ .text.usart_set_parity
+                0x00000000080012ce        0xc libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                0x00000000080012ce                usart_set_parity
+ .text.usart_set_mode
+                0x00000000080012da        0xc libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                0x00000000080012da                usart_set_mode
+ .text.usart_set_flow_control
+                0x00000000080012e6        0xc libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                0x00000000080012e6                usart_set_flow_control
+ .text.usart_enable
+                0x00000000080012f2        0xa libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                0x00000000080012f2                usart_enable
+ .text.usart_disable
+                0x00000000080012fc        0xa libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                0x00000000080012fc                usart_disable
+ .text.usart_send
+                0x0000000008001306        0x8 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+                0x0000000008001306                usart_send
+ .text.usart_recv
+                0x000000000800130e        0x8 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+                0x000000000800130e                usart_recv
+ .text.rcc_peripheral_reset
+                0x0000000008001316        0x8 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+                0x0000000008001316                rcc_peripheral_reset
+ .text.rcc_peripheral_clear_reset
+                0x000000000800131e        0xa libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+                0x000000000800131e                rcc_peripheral_clear_reset
+ .text.rcc_periph_clock_enable
+                0x0000000008001328       0x1a libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+                0x0000000008001328                rcc_periph_clock_enable
+ .text.rcc_periph_clock_disable
+                0x0000000008001342       0x1e libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+                0x0000000008001342                rcc_periph_clock_disable
+ .text.pwr_clear_wakeup_flag
+                0x0000000008001360       0x10 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+                0x0000000008001360                pwr_clear_wakeup_flag
+ .text.pwr_set_stop_mode
+                0x0000000008001370       0x10 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+                0x0000000008001370                pwr_set_stop_mode
+ .text.pwr_voltage_regulator_low_power_in_stop
+                0x0000000008001380       0x10 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+                0x0000000008001380                pwr_voltage_regulator_low_power_in_stop
+ .text.blocking_handler
+                0x0000000008001390        0x2 libopencm3/lib/cm3/vector.stm32f1
+                0x0000000008001390                usart3_isr
+                0x0000000008001390                rtc_isr
+                0x0000000008001390                tim7_isr
+                0x0000000008001390                adc1_2_isr
+                0x0000000008001390                tim1_trg_com_isr
+                0x0000000008001390                usb_hp_can_tx_isr
+                0x0000000008001390                tim6_isr
+                0x0000000008001390                usb_wakeup_isr
+                0x0000000008001390                blocking_handler
+                0x0000000008001390                tim5_isr
+                0x0000000008001390                otg_fs_isr
+                0x0000000008001390                spi1_isr
+                0x0000000008001390                exti2_isr
+                0x0000000008001390                dma1_channel6_isr
+                0x0000000008001390                can_rx1_isr
+                0x0000000008001390                dma1_channel5_isr
+                0x0000000008001390                dma2_channel5_isr
+                0x0000000008001390                usage_fault_handler
+                0x0000000008001390                tim8_trg_com_isr
+                0x0000000008001390                can2_rx0_isr
+                0x0000000008001390                tim1_brk_isr
+                0x0000000008001390                can2_rx1_isr
+                0x0000000008001390                tim1_cc_isr
+                0x0000000008001390                sdio_isr
+                0x0000000008001390                eth_isr
+                0x0000000008001390                dma1_channel4_isr
+                0x0000000008001390                tim8_brk_isr
+                0x0000000008001390                dma2_channel4_5_isr
+                0x0000000008001390                pvd_isr
+                0x0000000008001390                rcc_isr
+                0x0000000008001390                flash_isr
+                0x0000000008001390                uart4_isr
+                0x0000000008001390                rtc_alarm_isr
+                0x0000000008001390                hard_fault_handler
+                0x0000000008001390                exti1_isr
+                0x0000000008001390                i2c1_ev_isr
+                0x0000000008001390                dma2_channel1_isr
+                0x0000000008001390                spi2_isr
+                0x0000000008001390                tim8_up_isr
+                0x0000000008001390                dma2_channel2_isr
+                0x0000000008001390                exti3_isr
+                0x0000000008001390                adc3_isr
+                0x0000000008001390                tim3_isr
+                0x0000000008001390                usart2_isr
+                0x0000000008001390                i2c2_er_isr
+                0x0000000008001390                i2c2_ev_isr
+                0x0000000008001390                uart5_isr
+                0x0000000008001390                fsmc_isr
+                0x0000000008001390                dma1_channel1_isr
+                0x0000000008001390                exti4_isr
+                0x0000000008001390                mem_manage_handler
+                0x0000000008001390                can2_tx_isr
+                0x0000000008001390                exti9_5_isr
+                0x0000000008001390                dma2_channel3_isr
+                0x0000000008001390                dma1_channel7_isr
+                0x0000000008001390                tim1_up_isr
+                0x0000000008001390                can2_sce_isr
+                0x0000000008001390                tim4_isr
+                0x0000000008001390                dma1_channel2_isr
+                0x0000000008001390                i2c1_er_isr
+                0x0000000008001390                can_sce_isr
+                0x0000000008001390                tim8_cc_isr
+                0x0000000008001390                tamper_isr
+                0x0000000008001390                eth_wkup_isr
+                0x0000000008001390                bus_fault_handler
+                0x0000000008001390                wwdg_isr
+                0x0000000008001390                dma1_channel3_isr
+                0x0000000008001390                spi3_isr
+                0x0000000008001390                tim2_isr
+                0x0000000008001390                exti0_isr
+ .text.null_handler
+                0x0000000008001392        0x2 libopencm3/lib/cm3/vector.stm32f1
+                0x0000000008001392                null_handler
+                0x0000000008001392                sv_call_handler
+                0x0000000008001392                pend_sv_handler
+                0x0000000008001392                debug_monitor_handler
+                0x0000000008001392                nmi_handler
+ .text.reset_handler
+                0x0000000008001394       0x8c libopencm3/lib/cm3/vector.stm32f1
+                0x0000000008001394                reset_handler
+ .text.systick_set_reload
+                0x0000000008001420       0x10 libopencm3/lib/cm3/systick.stm32f1
+                0x0000000008001420                systick_set_reload
+ .text.systick_set_clocksource
+                0x0000000008001430       0x18 libopencm3/lib/cm3/systick.stm32f1
+                0x0000000008001430                systick_set_clocksource
+ .text.systick_interrupt_enable
+                0x0000000008001448       0x10 libopencm3/lib/cm3/systick.stm32f1
+                0x0000000008001448                systick_interrupt_enable
+ .text.systick_interrupt_disable
+                0x0000000008001458       0x10 libopencm3/lib/cm3/systick.stm32f1
+                0x0000000008001458                systick_interrupt_disable
+ .text.systick_counter_enable
+                0x0000000008001468       0x10 libopencm3/lib/cm3/systick.stm32f1
+                0x0000000008001468                systick_counter_enable
+ .text.systick_counter_disable
+                0x0000000008001478       0x10 libopencm3/lib/cm3/systick.stm32f1
+                0x0000000008001478                systick_counter_disable
+ .text.nvic_enable_irq
+                0x0000000008001488       0x1a libopencm3/lib/cm3/nvic.stm32f1
+                0x0000000008001488                nvic_enable_irq
+ *fill*         0x00000000080014a2        0x2 
+ .text.nvic_disable_irq
+                0x00000000080014a4       0x18 libopencm3/lib/cm3/nvic.stm32f1
+                0x00000000080014a4                nvic_disable_irq
+ .text.nvic_set_priority
+                0x00000000080014bc       0x20 libopencm3/lib/cm3/nvic.stm32f1
+                0x00000000080014bc                nvic_set_priority
+ .text.flash_set_ws
+                0x00000000080014dc       0x14 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+                0x00000000080014dc                flash_set_ws
+ .text.can_reset
+                0x00000000080014f0       0x38 libopencm3/lib/stm32/can.stm32f1
+                0x00000000080014f0                can_reset
+ .text.can_init
+                0x0000000008001528      0x12a libopencm3/lib/stm32/can.stm32f1
+                0x0000000008001528                can_init
+ .text.can_filter_init
+                0x0000000008001652       0x8e libopencm3/lib/stm32/can.stm32f1
+                0x0000000008001652                can_filter_init
+ .text.can_filter_id_mask_32bit_init
+                0x00000000080016e0       0x1c libopencm3/lib/stm32/can.stm32f1
+                0x00000000080016e0                can_filter_id_mask_32bit_init
+ .text.can_enable_irq
+                0x00000000080016fc        0x8 libopencm3/lib/stm32/can.stm32f1
+                0x00000000080016fc                can_enable_irq
+ .text.can_disable_irq
+                0x0000000008001704        0xa libopencm3/lib/stm32/can.stm32f1
+                0x0000000008001704                can_disable_irq
+ .text.can_fifo_release
+                0x000000000800170e       0x16 libopencm3/lib/stm32/can.stm32f1
+                0x000000000800170e                can_fifo_release
+ .text.can_receive
+                0x0000000008001724       0xa0 libopencm3/lib/stm32/can.stm32f1
+                0x0000000008001724                can_receive
+ .text.exti_set_trigger
+                0x00000000080017c4       0x3c libopencm3/lib/stm32/common/exti_common_all.stm32f1
+                0x00000000080017c4                exti_set_trigger
+ .text.exti_enable_request
+                0x0000000008001800       0x1c libopencm3/lib/stm32/common/exti_common_all.stm32f1
+                0x0000000008001800                exti_enable_request
+ .text.exti_disable_request
+                0x000000000800181c       0x1c libopencm3/lib/stm32/common/exti_common_all.stm32f1
+                0x000000000800181c                exti_disable_request
+ .text.exti_reset_request
+                0x0000000008001838        0xc libopencm3/lib/stm32/common/exti_common_all.stm32f1
+                0x0000000008001838                exti_reset_request
+ .text.exti_select_source
+                0x0000000008001844       0xa0 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+                0x0000000008001844                exti_select_source
+ .text          0x00000000080018e4       0x5c /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x00000000080018e4                strlen
+ .text          0x0000000008001940      0x21c /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+                0x0000000008001940                __aeabi_frsub
+                0x0000000008001948                __subsf3
+                0x0000000008001948                __aeabi_fsub
+                0x000000000800194c                __aeabi_fadd
+                0x000000000800194c                __addsf3
+                0x0000000008001aac                __aeabi_ui2f
+                0x0000000008001aac                __floatunsisf
+                0x0000000008001ab4                __aeabi_i2f
+                0x0000000008001ab4                __floatsisf
+                0x0000000008001ad0                __floatundisf
+                0x0000000008001ad0                __aeabi_ul2f
+                0x0000000008001ae0                __floatdisf
+                0x0000000008001ae0                __aeabi_l2f
+ .text          0x0000000008001b5c      0x2a0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+                0x0000000008001b5c                __mulsf3
+                0x0000000008001b5c                __aeabi_fmul
+                0x0000000008001cc4                __divsf3
+                0x0000000008001cc4                __aeabi_fdiv
+ .text          0x0000000008001dfc       0x40 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunssfsi.o)
+                0x0000000008001dfc                __aeabi_f2uiz
+                0x0000000008001dfc                __fixunssfsi
+                0x0000000008001e3c                . = ALIGN (0x4)
+ *(.rodata*)
+ .rodata.clr_rscreen.str1.1
+                0x0000000008001e3c        0x5 main.vo
+ .rodata.clr_screen.str1.1
+                0x0000000008001e41        0x5 main.vo
+ .rodata.main.str1.1
+                0x0000000008001e46        0x7 main.vo
+ *fill*         0x0000000008001e4d        0x3 
+ .rodata.speeds
+                0x0000000008001e50       0x50 audi_stm32feb/fw/hw_can.vo
+                0x0000000008001ea0                . = ALIGN (0x4)
+
+.glue_7         0x0000000008001ea0        0x0
+ .glue_7        0x0000000008001ea0        0x0 linker stubs
+
+.glue_7t        0x0000000008001ea0        0x0
+ .glue_7t       0x0000000008001ea0        0x0 linker stubs
+
+.vfp11_veneer   0x0000000008001ea0        0x0
+ .vfp11_veneer  0x0000000008001ea0        0x0 linker stubs
+
+.v4_bx          0x0000000008001ea0        0x0
+ .v4_bx         0x0000000008001ea0        0x0 linker stubs
+
+.iplt           0x0000000008001ea0        0x0
+ .iplt          0x0000000008001ea0        0x0 main.vo
+
+.rel.dyn        0x0000000008001ea0        0x0
+ .rel.iplt      0x0000000008001ea0        0x0 main.vo
+
+.preinit_array  0x0000000008001ea0        0x0
+                0x0000000008001ea0                . = ALIGN (0x4)
+                0x0000000008001ea0                __preinit_array_start = .
+ *(.preinit_array)
+                0x0000000008001ea0                __preinit_array_end = .
+
+.init_array     0x0000000008001ea0        0x0
+                0x0000000008001ea0                . = ALIGN (0x4)
+                0x0000000008001ea0                __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x0000000008001ea0                __init_array_end = .
+
+.fini_array     0x0000000008001ea0        0x0
+                0x0000000008001ea0                . = ALIGN (0x4)
+                0x0000000008001ea0                __fini_array_start = .
+ *(.fini_array)
+ *(SORT_BY_NAME(.fini_array.*))
+                0x0000000008001ea0                __fini_array_end = .
+
+.ARM.extab
+ *(.ARM.extab*)
+
+.ARM.exidx      0x0000000008001ea0        0x0
+                0x0000000008001ea0                __exidx_start = .
+ *(.ARM.exidx*)
+                0x0000000008001ea0                __exidx_end = .
+                0x0000000008001ea0                . = ALIGN (0x4)
+                0x0000000008001ea0                _etext = .
+
+.data           0x0000000020000000      0x6cc load address 0x0000000008001ea0
+                0x0000000020000000                _data = .
+ *(.data*)
+ .data.max_show_sniff_num
+                0x0000000020000000        0x4 main.vo
+                0x0000000020000000                max_show_sniff_num
+ .data.conf     0x0000000020000004       0x10 conf.vo
+                0x0000000020000004                conf
+ .data.a3_2011_ms
+                0x0000000020000014       0x20 car.vo
+ .data.anymsg_desc
+                0x0000000020000034       0x10 car.vo
+                0x0000000020000034                anymsg_desc
+ .data.carstate
+                0x0000000020000044        0x4 car.vo
+ .data.q3_2015_ms
+                0x0000000020000048       0x20 car.vo
+ .data.can1     0x0000000020000068      0x5dc audi_stm32feb/fw/hw_can.vo
+ .data.acc      0x0000000020000644        0xc audi_stm32feb/fw/hw_gpio.vo
+ .data.ill      0x0000000020000650        0xc audi_stm32feb/fw/hw_gpio.vo
+ .data.rear     0x000000002000065c        0xc audi_stm32feb/fw/hw_gpio.vo
+ .data.usart1   0x0000000020000668       0x58 audi_stm32feb/fw/hw_usart.vo
+ .data.rcc_ahb_frequency
+                0x00000000200006c0        0x4 libopencm3/lib/stm32/f1/rcc.stm32f1
+                0x00000000200006c0                rcc_ahb_frequency
+ .data.rcc_apb1_frequency
+                0x00000000200006c4        0x4 libopencm3/lib/stm32/f1/rcc.stm32f1
+                0x00000000200006c4                rcc_apb1_frequency
+ .data.rcc_apb2_frequency
+                0x00000000200006c8        0x4 libopencm3/lib/stm32/f1/rcc.stm32f1
+                0x00000000200006c8                rcc_apb2_frequency
+                0x00000000200006cc                . = ALIGN (0x4)
+                0x00000000200006cc                _edata = .
+                0x0000000008001ea0                _data_loadaddr = LOADADDR (.data)
+
+.igot.plt       0x00000000200006cc        0x0 load address 0x000000000800256c
+ .igot.plt      0x00000000200006cc        0x0 main.vo
+
+.bss            0x00000000200006cc      0x274 load address 0x000000000800256c
+ *(.bss*)
+ .bss.debug_on  0x00000000200006cc        0x1 main.vo
+                0x00000000200006cc                debug_on
+ *fill*         0x00000000200006cd        0x3 
+ .bss.debug_on_cnt
+                0x00000000200006d0        0x4 main.vo
+                0x00000000200006d0                debug_on_cnt
+ .bss.key_cb    0x00000000200006d4       0x20 main.vo
+                0x00000000200006d4                key_cb
+ .bss.msg_idx   0x00000000200006f4        0x1 main.vo
+                0x00000000200006f4                msg_idx
+ .bss.sniffer_on
+                0x00000000200006f5        0x1 main.vo
+                0x00000000200006f5                sniffer_on
+ *fill*         0x00000000200006f6        0x2 
+ .bss.wakeups   0x00000000200006f8        0x4 main.vo
+                0x00000000200006f8                wakeups
+ .bss.div_1000ms.4305
+                0x00000000200006fc        0x2 tick.vo
+ .bss.div_100ms.4307
+                0x00000000200006fe        0x2 tick.vo
+ .bss.div_250ms.4306
+                0x0000000020000700        0x2 tick.vo
+ .bss.div_5ms.4308
+                0x0000000020000702        0x2 tick.vo
+ .bss.timer     0x0000000020000704       0x14 tick.vo
+                0x0000000020000704                timer
+ .bss.usart_rx_ring_buffer
+                0x0000000020000718       0x20 hw.vo
+ .bss.usart_tx_ring_buffer
+                0x0000000020000738      0x200 hw.vo
+ .bss.can_isr_cnt
+                0x0000000020000938        0x4 audi_stm32feb/fw/hw_can.vo
+                0x0000000020000938                can_isr_cnt
+ .bss.usart_isr_cnt
+                0x000000002000093c        0x4 audi_stm32feb/fw/hw_usart.vo
+                0x000000002000093c                usart_isr_cnt
+ *(COMMON)
+                0x0000000020000940                . = ALIGN (0x4)
+                0x0000000020000940                _ebss = .
+
+/DISCARD/
+ *(.eh_frame)
+                0x0000000020000940                . = ALIGN (0x4)
+                0x0000000020000940                end = .
+                0x0000000020002800                PROVIDE (_stack = (ORIGIN (ram) + LENGTH (ram)))
+OUTPUT(audi_stm32feb.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000     0x8fa6
+ .debug_info    0x0000000000000000     0x18d8 main.vo
+ .debug_info    0x00000000000018d8      0x269 ring.vo
+ .debug_info    0x0000000000001b41      0xb49 conf.vo
+ .debug_info    0x000000000000268a     0x1159 car.vo
+ .debug_info    0x00000000000037e3      0x17d tick.vo
+ .debug_info    0x0000000000003960      0xbcf hw.vo
+ .debug_info    0x000000000000452f      0x586 audi_stm32feb/fw/hw_gpio.vo
+ .debug_info    0x0000000000004ab5      0x1e4 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .debug_info    0x0000000000004c99     0x1254 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_info    0x0000000000005eed      0x24e libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .debug_info    0x000000000000613b      0x519 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_info    0x0000000000006654      0x1fe libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_info    0x0000000000006852      0x5a5 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .debug_info    0x0000000000006df7      0x1b6 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .debug_info    0x0000000000006fad      0x2c9 libopencm3/lib/cm3/vector.stm32f1
+ .debug_info    0x0000000000007276      0x268 libopencm3/lib/cm3/systick.stm32f1
+ .debug_info    0x00000000000074de      0x22d libopencm3/lib/cm3/nvic.stm32f1
+ .debug_info    0x000000000000770b      0x28d libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .debug_info    0x0000000000007998      0xa38 libopencm3/lib/stm32/can.stm32f1
+ .debug_info    0x00000000000083d0      0x223 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .debug_info    0x00000000000085f3      0x941 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .debug_info    0x0000000000008f34       0x26 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .debug_info    0x0000000000008f5a       0x26 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .debug_info    0x0000000000008f80       0x26 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunssfsi.o)
+
+.debug_abbrev   0x0000000000000000     0x22f5
+ .debug_abbrev  0x0000000000000000      0x43a main.vo
+ .debug_abbrev  0x000000000000043a      0x12c ring.vo
+ .debug_abbrev  0x0000000000000566      0x26f conf.vo
+ .debug_abbrev  0x00000000000007d5      0x413 car.vo
+ .debug_abbrev  0x0000000000000be8       0xc1 tick.vo
+ .debug_abbrev  0x0000000000000ca9      0x268 hw.vo
+ .debug_abbrev  0x0000000000000f11      0x168 audi_stm32feb/fw/hw_gpio.vo
+ .debug_abbrev  0x0000000000001079       0xd0 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .debug_abbrev  0x0000000000001149      0x2b1 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_abbrev  0x00000000000013fa      0x116 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .debug_abbrev  0x0000000000001510      0x129 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_abbrev  0x0000000000001639       0xdc libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_abbrev  0x0000000000001715      0x13e libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .debug_abbrev  0x0000000000001853       0xa2 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .debug_abbrev  0x00000000000018f5      0x149 libopencm3/lib/cm3/vector.stm32f1
+ .debug_abbrev  0x0000000000001a3e      0x155 libopencm3/lib/cm3/systick.stm32f1
+ .debug_abbrev  0x0000000000001b93       0xb5 libopencm3/lib/cm3/nvic.stm32f1
+ .debug_abbrev  0x0000000000001c48       0xdf libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .debug_abbrev  0x0000000000001d27      0x2be libopencm3/lib/stm32/can.stm32f1
+ .debug_abbrev  0x0000000000001fe5      0x102 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .debug_abbrev  0x00000000000020e7      0x1d2 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .debug_abbrev  0x00000000000022b9       0x14 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .debug_abbrev  0x00000000000022cd       0x14 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .debug_abbrev  0x00000000000022e1       0x14 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunssfsi.o)
+
+.debug_loc      0x0000000000000000     0x25fd
+ .debug_loc     0x0000000000000000      0x317 main.vo
+ .debug_loc     0x0000000000000317      0x171 ring.vo
+ .debug_loc     0x0000000000000488      0x472 car.vo
+ .debug_loc     0x00000000000008fa       0x6f audi_stm32feb/fw/hw_gpio.vo
+ .debug_loc     0x0000000000000969      0x16b libopencm3/lib/stm32/f1/gpio.stm32f1
+ .debug_loc     0x0000000000000ad4      0x4b6 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_loc     0x0000000000000f8a       0xbe libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .debug_loc     0x0000000000001048      0x206 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_loc     0x000000000000124e      0x10d libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_loc     0x000000000000135b      0x128 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .debug_loc     0x0000000000001483       0x25 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .debug_loc     0x00000000000014a8       0xff libopencm3/lib/cm3/vector.stm32f1
+ .debug_loc     0x00000000000015a7      0x192 libopencm3/lib/cm3/systick.stm32f1
+ .debug_loc     0x0000000000001739      0x14d libopencm3/lib/cm3/nvic.stm32f1
+ .debug_loc     0x0000000000001886       0xef libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .debug_loc     0x0000000000001975      0xade libopencm3/lib/stm32/can.stm32f1
+ .debug_loc     0x0000000000002453      0x185 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .debug_loc     0x00000000000025d8       0x25 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+
+.debug_aranges  0x0000000000000000      0x8c8
+ .debug_aranges
+                0x0000000000000000       0x48 main.vo
+ .debug_aranges
+                0x0000000000000048       0x40 ring.vo
+ .debug_aranges
+                0x0000000000000088       0x68 conf.vo
+ .debug_aranges
+                0x00000000000000f0       0x78 car.vo
+ .debug_aranges
+                0x0000000000000168       0x20 tick.vo
+ .debug_aranges
+                0x0000000000000188       0x28 hw.vo
+ .debug_aranges
+                0x00000000000001b0       0x70 audi_stm32feb/fw/hw_gpio.vo
+ .debug_aranges
+                0x0000000000000220       0x38 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .debug_aranges
+                0x0000000000000258      0x160 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_aranges
+                0x00000000000003b8       0x50 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .debug_aranges
+                0x0000000000000408       0xb8 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_aranges
+                0x00000000000004c0       0x48 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_aranges
+                0x0000000000000508       0x58 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .debug_aranges
+                0x0000000000000560       0x90 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .debug_aranges
+                0x00000000000005f0       0x30 libopencm3/lib/cm3/vector.stm32f1
+ .debug_aranges
+                0x0000000000000620       0x78 libopencm3/lib/cm3/systick.stm32f1
+ .debug_aranges
+                0x0000000000000698       0x60 libopencm3/lib/cm3/nvic.stm32f1
+ .debug_aranges
+                0x00000000000006f8       0x88 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .debug_aranges
+                0x0000000000000780       0x80 libopencm3/lib/stm32/can.stm32f1
+ .debug_aranges
+                0x0000000000000800       0x48 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .debug_aranges
+                0x0000000000000848       0x20 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .debug_aranges
+                0x0000000000000868       0x20 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .debug_aranges
+                0x0000000000000888       0x20 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .debug_aranges
+                0x00000000000008a8       0x20 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunssfsi.o)
+
+.debug_ranges   0x0000000000000000      0x8f0
+ .debug_ranges  0x0000000000000000       0xd0 main.vo
+ .debug_ranges  0x00000000000000d0       0x30 ring.vo
+ .debug_ranges  0x0000000000000100       0x58 conf.vo
+ .debug_ranges  0x0000000000000158      0x108 car.vo
+ .debug_ranges  0x0000000000000260       0x10 tick.vo
+ .debug_ranges  0x0000000000000270       0x18 hw.vo
+ .debug_ranges  0x0000000000000288       0x60 audi_stm32feb/fw/hw_gpio.vo
+ .debug_ranges  0x00000000000002e8       0x28 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .debug_ranges  0x0000000000000310      0x1c0 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_ranges  0x00000000000004d0       0x40 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .debug_ranges  0x0000000000000510       0xa8 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_ranges  0x00000000000005b8       0x38 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_ranges  0x00000000000005f0       0x48 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .debug_ranges  0x0000000000000638       0x80 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .debug_ranges  0x00000000000006b8       0x20 libopencm3/lib/cm3/vector.stm32f1
+ .debug_ranges  0x00000000000006d8       0x80 libopencm3/lib/cm3/systick.stm32f1
+ .debug_ranges  0x0000000000000758       0x50 libopencm3/lib/cm3/nvic.stm32f1
+ .debug_ranges  0x00000000000007a8       0x78 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .debug_ranges  0x0000000000000820       0x70 libopencm3/lib/stm32/can.stm32f1
+ .debug_ranges  0x0000000000000890       0x50 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .debug_ranges  0x00000000000008e0       0x10 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+
+.debug_macro    0x0000000000000000     0x5c3d
+ .debug_macro   0x0000000000000000      0x18f main.vo
+ .debug_macro   0x000000000000018f      0xa8a main.vo
+ .debug_macro   0x0000000000000c19       0x22 main.vo
+ .debug_macro   0x0000000000000c3b       0x52 main.vo
+ .debug_macro   0x0000000000000c8d       0x18 main.vo
+ .debug_macro   0x0000000000000ca5       0x94 main.vo
+ .debug_macro   0x0000000000000d39       0x35 main.vo
+ .debug_macro   0x0000000000000d6e       0x34 main.vo
+ .debug_macro   0x0000000000000da2      0x16d main.vo
+ .debug_macro   0x0000000000000f0f       0x16 main.vo
+ .debug_macro   0x0000000000000f25       0x43 main.vo
+ .debug_macro   0x0000000000000f68       0x57 main.vo
+ .debug_macro   0x0000000000000fbf       0x34 main.vo
+ .debug_macro   0x0000000000000ff3       0x10 main.vo
+ .debug_macro   0x0000000000001003       0x52 main.vo
+ .debug_macro   0x0000000000001055      0x182 main.vo
+ .debug_macro   0x00000000000011d7      0x35c main.vo
+ .debug_macro   0x0000000000001533       0x10 main.vo
+ .debug_macro   0x0000000000001543       0x35 main.vo
+ .debug_macro   0x0000000000001578       0x16 main.vo
+ .debug_macro   0x000000000000158e       0x16 main.vo
+ .debug_macro   0x00000000000015a4       0x29 main.vo
+ .debug_macro   0x00000000000015cd      0x103 main.vo
+ .debug_macro   0x00000000000016d0      0x34e main.vo
+ .debug_macro   0x0000000000001a1e      0x379 main.vo
+ .debug_macro   0x0000000000001d97       0x1c main.vo
+ .debug_macro   0x0000000000001db3       0x10 main.vo
+ .debug_macro   0x0000000000001dc3       0x97 ring.vo
+ .debug_macro   0x0000000000001e5a       0x3a ring.vo
+ .debug_macro   0x0000000000001e94       0x82 ring.vo
+ .debug_macro   0x0000000000001f16      0x379 ring.vo
+ .debug_macro   0x000000000000228f      0x130 conf.vo
+ .debug_macro   0x00000000000023bf       0xfd conf.vo
+ .debug_macro   0x00000000000024bc      0x166 car.vo
+ .debug_macro   0x0000000000002622       0x9c tick.vo
+ .debug_macro   0x00000000000026be       0x16 tick.vo
+ .debug_macro   0x00000000000026d4      0x170 hw.vo
+ .debug_macro   0x0000000000002844      0x11a audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x000000000000295e       0x22 audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x0000000000002980       0xfa audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x0000000000002a7a       0x58 audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x0000000000002ad2      0x1b4 audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x0000000000002c86      0x825 audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x00000000000034ab       0x76 audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x0000000000003521      0xdfd audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x000000000000431e       0x10 audi_stm32feb/fw/hw_gpio.vo
+ .debug_macro   0x000000000000432e       0x70 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .debug_macro   0x000000000000439e       0x97 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_macro   0x0000000000004435       0x16 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_macro   0x000000000000444b       0xdc libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_macro   0x0000000000004527       0x82 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_macro   0x00000000000045a9       0x76 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .debug_macro   0x000000000000461f       0x92 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_macro   0x00000000000046b1       0x8e libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_macro   0x000000000000473f      0x273 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_macro   0x00000000000049b2       0x92 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_macro   0x0000000000004a44       0x86 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .debug_macro   0x0000000000004aca       0x6b libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .debug_macro   0x0000000000004b35       0x87 libopencm3/lib/cm3/vector.stm32f1
+ .debug_macro   0x0000000000004bbc      0x3a1 libopencm3/lib/cm3/vector.stm32f1
+ .debug_macro   0x0000000000004f5d       0x71 libopencm3/lib/cm3/vector.stm32f1
+ .debug_macro   0x0000000000004fce      0x1a2 libopencm3/lib/cm3/vector.stm32f1
+ .debug_macro   0x0000000000005170       0x4a libopencm3/lib/cm3/systick.stm32f1
+ .debug_macro   0x00000000000051ba       0x64 libopencm3/lib/cm3/systick.stm32f1
+ .debug_macro   0x000000000000521e       0x6b libopencm3/lib/cm3/nvic.stm32f1
+ .debug_macro   0x0000000000005289       0x6b libopencm3/lib/cm3/nvic.stm32f1
+ .debug_macro   0x00000000000052f4      0x1b0 libopencm3/lib/cm3/nvic.stm32f1
+ .debug_macro   0x00000000000054a4       0x70 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .debug_macro   0x0000000000005514       0x7d libopencm3/lib/stm32/can.stm32f1
+ .debug_macro   0x0000000000005591      0x513 libopencm3/lib/stm32/can.stm32f1
+ .debug_macro   0x0000000000005aa4       0x87 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .debug_macro   0x0000000000005b2b      0x112 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+
+.debug_line     0x0000000000000000     0x5257
+ .debug_line    0x0000000000000000      0x779 main.vo
+ .debug_line    0x0000000000000779      0x275 ring.vo
+ .debug_line    0x00000000000009ee      0x2c3 conf.vo
+ .debug_line    0x0000000000000cb1      0x546 car.vo
+ .debug_line    0x00000000000011f7      0x1fd tick.vo
+ .debug_line    0x00000000000013f4      0x23b hw.vo
+ .debug_line    0x000000000000162f      0x393 audi_stm32feb/fw/hw_gpio.vo
+ .debug_line    0x00000000000019c2      0x272 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .debug_line    0x0000000000001c34      0xc26 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_line    0x000000000000285a      0x294 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .debug_line    0x0000000000002aee      0x49e libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_line    0x0000000000002f8c      0x2d5 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_line    0x0000000000003261      0x2b2 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .debug_line    0x0000000000003513      0x330 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .debug_line    0x0000000000003843      0x2cd libopencm3/lib/cm3/vector.stm32f1
+ .debug_line    0x0000000000003b10      0x27e libopencm3/lib/cm3/systick.stm32f1
+ .debug_line    0x0000000000003d8e      0x29f libopencm3/lib/cm3/nvic.stm32f1
+ .debug_line    0x000000000000402d      0x3a8 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .debug_line    0x00000000000043d5      0x755 libopencm3/lib/stm32/can.stm32f1
+ .debug_line    0x0000000000004b2a      0x315 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .debug_line    0x0000000000004e3f      0x14e /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .debug_line    0x0000000000004f8d      0x119 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .debug_line    0x00000000000050a6      0x13c /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .debug_line    0x00000000000051e2       0x75 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunssfsi.o)
+
+.debug_str      0x0000000000000000    0x16e3c
+ .debug_str     0x0000000000000000     0x7bb4 main.vo
+                                       0x7e37 (size before relaxing)
+ .debug_str     0x0000000000007bb4       0xa5 ring.vo
+                                       0x4d53 (size before relaxing)
+ .debug_str     0x0000000000007c59       0x5e conf.vo
+                                       0x7a31 (size before relaxing)
+ .debug_str     0x0000000000007cb7      0x1d1 car.vo
+                                       0x7bd6 (size before relaxing)
+ .debug_str     0x0000000000007e88       0x3b tick.vo
+                                       0x4db7 (size before relaxing)
+ .debug_str     0x0000000000007ec3      0x5c2 hw.vo
+                                       0x7f27 (size before relaxing)
+ .debug_str     0x0000000000008485     0x6fe4 audi_stm32feb/fw/hw_gpio.vo
+                                       0xbd2d (size before relaxing)
+ .debug_str     0x000000000000f469       0x91 libopencm3/lib/stm32/f1/gpio.stm32f1
+                                       0x8113 (size before relaxing)
+ .debug_str     0x000000000000f4fa      0xc49 libopencm3/lib/stm32/f1/rcc.stm32f1
+                                       0x7938 (size before relaxing)
+ .debug_str     0x0000000000010143       0x93 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+                                       0x8126 (size before relaxing)
+ .debug_str     0x00000000000101d6     0x10ab libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                                       0x7da7 (size before relaxing)
+ .debug_str     0x0000000000011281       0x63 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+                                       0x7c05 (size before relaxing)
+ .debug_str     0x00000000000112e4      0x340 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+                                       0x7260 (size before relaxing)
+ .debug_str     0x0000000000011624      0x491 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+                                       0x4d5d (size before relaxing)
+ .debug_str     0x0000000000011ab5     0x24f6 libopencm3/lib/cm3/vector.stm32f1
+                                       0x627d (size before relaxing)
+ .debug_str     0x0000000000013fab      0x354 libopencm3/lib/cm3/systick.stm32f1
+                                       0x40cf (size before relaxing)
+ .debug_str     0x00000000000142ff      0x9f9 libopencm3/lib/cm3/nvic.stm32f1
+                                       0x4f7c (size before relaxing)
+ .debug_str     0x0000000000014cf8      0x193 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+                                       0x51be (size before relaxing)
+ .debug_str     0x0000000000014e8b     0x196f libopencm3/lib/stm32/can.stm32f1
+                                       0x868c (size before relaxing)
+ .debug_str     0x00000000000167fa      0x472 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+                                       0x84e9 (size before relaxing)
+ .debug_str     0x0000000000016c6c      0x12c /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+                                        0x5ae (size before relaxing)
+ .debug_str     0x0000000000016d98       0xa4 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .debug_str     0x0000000000016e3c       0xa4 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .debug_str     0x0000000000016e3c       0xa4 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunssfsi.o)
+
+.comment        0x0000000000000000       0x9f
+ .comment       0x0000000000000000       0x51 main.vo
+                                         0x52 (size before relaxing)
+ .comment       0x0000000000000051       0x52 ring.vo
+ .comment       0x0000000000000051       0x52 conf.vo
+ .comment       0x0000000000000051       0x52 car.vo
+ .comment       0x0000000000000051       0x52 tick.vo
+ .comment       0x0000000000000051       0x52 hw.vo
+ .comment       0x0000000000000051       0x52 audi_stm32feb/fw/hw_clock.vo
+ .comment       0x0000000000000051       0x52 audi_stm32feb/fw/hw_can.vo
+ .comment       0x0000000000000051       0x52 audi_stm32feb/fw/hw_gpio.vo
+ .comment       0x0000000000000051       0x52 audi_stm32feb/fw/hw_tick.vo
+ .comment       0x0000000000000051       0x52 audi_stm32feb/fw/hw_usart.vo
+ .comment       0x0000000000000051       0x52 audi_stm32feb/fw/hw_sleep.vo
+ .comment       0x0000000000000051       0x52 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .comment       0x0000000000000051       0x52 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .comment       0x0000000000000051       0x52 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .comment       0x0000000000000051       0x52 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .comment       0x0000000000000051       0x52 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .comment       0x0000000000000051       0x52 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .comment       0x0000000000000051       0x52 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .comment       0x0000000000000051       0x52 libopencm3/lib/cm3/vector.stm32f1
+ .comment       0x0000000000000051       0x52 libopencm3/lib/cm3/systick.stm32f1
+ .comment       0x0000000000000051       0x52 libopencm3/lib/cm3/nvic.stm32f1
+ .comment       0x0000000000000051       0x52 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .comment       0x0000000000000051       0x52 libopencm3/lib/stm32/can.stm32f1
+ .comment       0x0000000000000051       0x52 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .comment       0x0000000000000051       0x4e /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+                                         0x4f (size before relaxing)
+
+.ARM.attributes
+                0x0000000000000000       0x2d
+ .ARM.attributes
+                0x0000000000000000       0x2d main.vo
+ .ARM.attributes
+                0x000000000000002d       0x2d ring.vo
+ .ARM.attributes
+                0x000000000000005a       0x2d conf.vo
+ .ARM.attributes
+                0x0000000000000087       0x2d car.vo
+ .ARM.attributes
+                0x00000000000000b4       0x2d tick.vo
+ .ARM.attributes
+                0x00000000000000e1       0x2d hw.vo
+ .ARM.attributes
+                0x000000000000010e       0x2d audi_stm32feb/fw/hw_clock.vo
+ .ARM.attributes
+                0x000000000000013b       0x2d audi_stm32feb/fw/hw_can.vo
+ .ARM.attributes
+                0x0000000000000168       0x2d audi_stm32feb/fw/hw_gpio.vo
+ .ARM.attributes
+                0x0000000000000195       0x2d audi_stm32feb/fw/hw_tick.vo
+ .ARM.attributes
+                0x00000000000001c2       0x2d audi_stm32feb/fw/hw_usart.vo
+ .ARM.attributes
+                0x00000000000001ef       0x2d audi_stm32feb/fw/hw_sleep.vo
+ .ARM.attributes
+                0x000000000000021c       0x2d libopencm3/lib/stm32/f1/gpio.stm32f1
+ .ARM.attributes
+                0x0000000000000249       0x2d libopencm3/lib/stm32/f1/rcc.stm32f1
+ .ARM.attributes
+                0x0000000000000276       0x2d libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .ARM.attributes
+                0x00000000000002a3       0x2d libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .ARM.attributes
+                0x00000000000002d0       0x2d libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .ARM.attributes
+                0x00000000000002fd       0x2d libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .ARM.attributes
+                0x000000000000032a       0x2d libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .ARM.attributes
+                0x0000000000000357       0x2d libopencm3/lib/cm3/vector.stm32f1
+ .ARM.attributes
+                0x0000000000000384       0x2d libopencm3/lib/cm3/systick.stm32f1
+ .ARM.attributes
+                0x00000000000003b1       0x2d libopencm3/lib/cm3/nvic.stm32f1
+ .ARM.attributes
+                0x00000000000003de       0x2d libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .ARM.attributes
+                0x000000000000040b       0x2d libopencm3/lib/stm32/can.stm32f1
+ .ARM.attributes
+                0x0000000000000438       0x2d libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .ARM.attributes
+                0x0000000000000465       0x2d /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .ARM.attributes
+                0x0000000000000492       0x1d /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x00000000000004af       0x1d /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x00000000000004cc       0x1d /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunssfsi.o)
+
+.debug_frame    0x0000000000000000     0x1188
+ .debug_frame   0x0000000000000000       0xd0 main.vo
+ .debug_frame   0x00000000000000d0       0x84 ring.vo
+ .debug_frame   0x0000000000000154       0xc0 conf.vo
+ .debug_frame   0x0000000000000214      0x128 car.vo
+ .debug_frame   0x000000000000033c       0x28 tick.vo
+ .debug_frame   0x0000000000000364       0x44 hw.vo
+ .debug_frame   0x00000000000003a8       0xd8 audi_stm32feb/fw/hw_gpio.vo
+ .debug_frame   0x0000000000000480       0x60 libopencm3/lib/stm32/f1/gpio.stm32f1
+ .debug_frame   0x00000000000004e0      0x2e8 libopencm3/lib/stm32/f1/rcc.stm32f1
+ .debug_frame   0x00000000000007c8       0x80 libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+ .debug_frame   0x0000000000000848      0x170 libopencm3/lib/stm32/common/usart_common_all.stm32f1
+ .debug_frame   0x00000000000009b8       0x70 libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+ .debug_frame   0x0000000000000a28       0xb0 libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+ .debug_frame   0x0000000000000ad8      0x100 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+ .debug_frame   0x0000000000000bd8       0x40 libopencm3/lib/cm3/vector.stm32f1
+ .debug_frame   0x0000000000000c18       0xd8 libopencm3/lib/cm3/systick.stm32f1
+ .debug_frame   0x0000000000000cf0       0xa0 libopencm3/lib/cm3/nvic.stm32f1
+ .debug_frame   0x0000000000000d90      0x120 libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+ .debug_frame   0x0000000000000eb0      0x188 libopencm3/lib/stm32/can.stm32f1
+ .debug_frame   0x0000000000001038       0x88 libopencm3/lib/stm32/common/exti_common_all.stm32f1
+ .debug_frame   0x00000000000010c0       0x20 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .debug_frame   0x00000000000010e0       0x4c /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x000000000000112c       0x38 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x0000000000001164       0x24 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunssfsi.o)
+
+Cross Reference Table
+
+Symbol                                            File
+__addsf3                                          /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+__aeabi_f2uiz                                     /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunssfsi.o)
+                                                  car.vo
+__aeabi_fadd                                      /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+                                                  car.vo
+__aeabi_fdiv                                      /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+                                                  car.vo
+__aeabi_fmul                                      /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+                                                  car.vo
+__aeabi_frsub                                     /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+__aeabi_fsub                                      /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+__aeabi_i2f                                       /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+__aeabi_l2f                                       /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+__aeabi_ui2f                                      /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+                                                  car.vo
+__aeabi_ul2f                                      /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+__divsf3                                          /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+__dmb                                             libopencm3/lib/cm3/sync.stm32f1
+__fini_array_end                                  libopencm3/lib/cm3/vector.stm32f1
+__fini_array_start                                libopencm3/lib/cm3/vector.stm32f1
+__fixunssfsi                                      /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunssfsi.o)
+__floatdisf                                       /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+__floatsisf                                       /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+__floatundisf                                     /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+__floatunsisf                                     /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+__init_array_end                                  libopencm3/lib/cm3/vector.stm32f1
+__init_array_start                                libopencm3/lib/cm3/vector.stm32f1
+__ldrex                                           libopencm3/lib/cm3/sync.stm32f1
+__mulsf3                                          /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivsf3.o)
+__preinit_array_end                               libopencm3/lib/cm3/vector.stm32f1
+__preinit_array_start                             libopencm3/lib/cm3/vector.stm32f1
+__strex                                           libopencm3/lib/cm3/sync.stm32f1
+__subsf3                                          /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+_data                                             libopencm3/lib/cm3/vector.stm32f1
+_data_loadaddr                                    libopencm3/lib/cm3/vector.stm32f1
+_ebss                                             libopencm3/lib/cm3/vector.stm32f1
+                                                  sbrk.vo
+_edata                                            libopencm3/lib/cm3/vector.stm32f1
+_sbrk_r                                           sbrk.vo
+_stack                                            libopencm3/lib/cm3/vector.stm32f1
+                                                  sbrk.vo
+adc1_2_isr                                        libopencm3/lib/cm3/vector.stm32f1
+adc3_isr                                          libopencm3/lib/cm3/vector.stm32f1
+anymsg_desc                                       car.vo
+blocking_handler                                  libopencm3/lib/cm3/vector.stm32f1
+bus_fault_handler                                 libopencm3/lib/cm3/vector.stm32f1
+can2_rx0_isr                                      libopencm3/lib/cm3/vector.stm32f1
+can2_rx1_isr                                      libopencm3/lib/cm3/vector.stm32f1
+can2_sce_isr                                      libopencm3/lib/cm3/vector.stm32f1
+can2_tx_isr                                       libopencm3/lib/cm3/vector.stm32f1
+can_available_mailbox                             libopencm3/lib/stm32/can.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+can_disable_irq                                   libopencm3/lib/stm32/can.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+can_enable_irq                                    libopencm3/lib/stm32/can.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+can_fifo_release                                  libopencm3/lib/stm32/can.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+can_filter_id_list_16bit_init                     libopencm3/lib/stm32/can.stm32f1
+can_filter_id_list_32bit_init                     libopencm3/lib/stm32/can.stm32f1
+can_filter_id_mask_16bit_init                     libopencm3/lib/stm32/can.stm32f1
+can_filter_id_mask_32bit_init                     libopencm3/lib/stm32/can.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+can_filter_init                                   libopencm3/lib/stm32/can.stm32f1
+can_init                                          libopencm3/lib/stm32/can.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+can_isr_cnt                                       audi_stm32feb/fw/hw_can.vo
+can_receive                                       libopencm3/lib/stm32/can.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+can_reset                                         libopencm3/lib/stm32/can.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+can_rx1_isr                                       libopencm3/lib/cm3/vector.stm32f1
+can_sce_isr                                       libopencm3/lib/cm3/vector.stm32f1
+can_transmit                                      libopencm3/lib/stm32/can.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+canbox_cmd_process                                canbox.vo
+canbox_cont                                       canbox.vo
+canbox_dec_volume                                 canbox.vo
+canbox_inc_volume                                 canbox.vo
+canbox_mici                                       canbox.vo
+canbox_mode                                       canbox.vo
+canbox_next                                       canbox.vo
+canbox_prev                                       canbox.vo
+car_get_acc                                       car.vo
+                                                  main.vo
+car_get_car                                       car.vo
+                                                  main.vo
+car_get_ign                                       car.vo
+                                                  main.vo
+car_get_illum                                     car.vo
+                                                  main.vo
+car_get_next_car                                  car.vo
+                                                  main.vo
+car_init                                          car.vo
+                                                  main.vo
+car_process                                       car.vo
+                                                  main.vo
+cm3_assert_failed                                 libopencm3/lib/stm32/f1/rcc.stm32f1
+conf                                              conf.vo
+conf_get_canbox                                   conf.vo
+                                                  canbox.vo
+                                                  main.vo
+conf_get_car                                      conf.vo
+                                                  main.vo
+conf_get_idx                                      conf.vo
+conf_get_illum                                    conf.vo
+                                                  main.vo
+conf_get_rear_delay                               conf.vo
+                                                  main.vo
+conf_read                                         conf.vo
+                                                  main.vo
+conf_set_canbox                                   conf.vo
+                                                  main.vo
+conf_set_car                                      conf.vo
+                                                  main.vo
+conf_set_illum                                    conf.vo
+                                                  main.vo
+conf_set_rear_delay                               conf.vo
+                                                  main.vo
+conf_write                                        conf.vo
+                                                  main.vo
+debug_monitor_handler                             libopencm3/lib/cm3/vector.stm32f1
+debug_on                                          main.vo
+debug_on_cnt                                      main.vo
+dma1_channel1_isr                                 libopencm3/lib/cm3/vector.stm32f1
+dma1_channel2_isr                                 libopencm3/lib/cm3/vector.stm32f1
+dma1_channel3_isr                                 libopencm3/lib/cm3/vector.stm32f1
+dma1_channel4_isr                                 libopencm3/lib/cm3/vector.stm32f1
+dma1_channel5_isr                                 libopencm3/lib/cm3/vector.stm32f1
+dma1_channel6_isr                                 libopencm3/lib/cm3/vector.stm32f1
+dma1_channel7_isr                                 libopencm3/lib/cm3/vector.stm32f1
+dma2_channel1_isr                                 libopencm3/lib/cm3/vector.stm32f1
+dma2_channel2_isr                                 libopencm3/lib/cm3/vector.stm32f1
+dma2_channel3_isr                                 libopencm3/lib/cm3/vector.stm32f1
+dma2_channel4_5_isr                               libopencm3/lib/cm3/vector.stm32f1
+dma2_channel5_isr                                 libopencm3/lib/cm3/vector.stm32f1
+eth_isr                                           libopencm3/lib/cm3/vector.stm32f1
+eth_wkup_isr                                      libopencm3/lib/cm3/vector.stm32f1
+exti0_isr                                         libopencm3/lib/cm3/vector.stm32f1
+exti15_10_isr                                     audi_stm32feb/fw/hw_can.vo
+exti1_isr                                         libopencm3/lib/cm3/vector.stm32f1
+exti2_isr                                         libopencm3/lib/cm3/vector.stm32f1
+exti3_isr                                         libopencm3/lib/cm3/vector.stm32f1
+exti4_isr                                         libopencm3/lib/cm3/vector.stm32f1
+exti9_5_isr                                       libopencm3/lib/cm3/vector.stm32f1
+exti_disable_request                              libopencm3/lib/stm32/common/exti_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+exti_enable_request                               libopencm3/lib/stm32/common/exti_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+exti_get_flag_status                              libopencm3/lib/stm32/common/exti_common_all.stm32f1
+exti_reset_request                                libopencm3/lib/stm32/common/exti_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+exti_select_source                                libopencm3/lib/stm32/common/exti_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+exti_set_trigger                                  libopencm3/lib/stm32/common/exti_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+flash_clear_bsy_flag                              libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+                                                  libopencm3/lib/stm32/f1/flash.stm32f1
+flash_clear_bsy_flag_upper                        libopencm3/lib/stm32/f1/flash.stm32f1
+flash_clear_eop_flag                              libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+                                                  libopencm3/lib/stm32/f1/flash.stm32f1
+flash_clear_eop_flag_upper                        libopencm3/lib/stm32/f1/flash.stm32f1
+flash_clear_pgerr_flag                            libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+                                                  libopencm3/lib/stm32/f1/flash.stm32f1
+flash_clear_pgerr_flag_upper                      libopencm3/lib/stm32/f1/flash.stm32f1
+flash_clear_status_flags                          libopencm3/lib/stm32/f1/flash.stm32f1
+flash_clear_wrprterr_flag                         libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+                                                  libopencm3/lib/stm32/f1/flash.stm32f1
+flash_clear_wrprterr_flag_upper                   libopencm3/lib/stm32/f1/flash.stm32f1
+flash_erase_all_pages                             libopencm3/lib/stm32/f1/flash.stm32f1
+flash_erase_option_bytes                          libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+flash_erase_page                                  libopencm3/lib/stm32/f1/flash.stm32f1
+flash_get_status_flags                            libopencm3/lib/stm32/f1/flash.stm32f1
+                                                  libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+flash_halfcycle_disable                           libopencm3/lib/stm32/f1/flash.stm32f1
+flash_halfcycle_enable                            libopencm3/lib/stm32/f1/flash.stm32f1
+flash_isr                                         libopencm3/lib/cm3/vector.stm32f1
+flash_lock                                        libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+flash_lock_upper                                  libopencm3/lib/stm32/f1/flash.stm32f1
+flash_prefetch_buffer_disable                     libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+flash_prefetch_buffer_enable                      libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+flash_program_half_word                           libopencm3/lib/stm32/f1/flash.stm32f1
+                                                  libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+flash_program_option_bytes                        libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+flash_program_word                                libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+flash_set_ws                                      libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+                                                  libopencm3/lib/stm32/f1/rcc.stm32f1
+flash_unlock                                      libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+flash_unlock_option_bytes                         libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+flash_unlock_upper                                libopencm3/lib/stm32/f1/flash.stm32f1
+flash_wait_for_last_operation                     libopencm3/lib/stm32/common/flash_common_f01.stm32f1
+                                                  libopencm3/lib/stm32/f1/flash.stm32f1
+fsmc_isr                                          libopencm3/lib/cm3/vector.stm32f1
+gpio_clear                                        libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_gpio.vo
+gpio_get                                          libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+gpio_port_config_lock                             libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+gpio_port_read                                    libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+gpio_port_write                                   libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+gpio_primary_remap                                libopencm3/lib/stm32/f1/gpio.stm32f1
+gpio_secondary_remap                              libopencm3/lib/stm32/f1/gpio.stm32f1
+gpio_set                                          libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_gpio.vo
+                                                  audi_stm32feb/fw/hw_can.vo
+gpio_set_eventout                                 libopencm3/lib/stm32/f1/gpio.stm32f1
+gpio_set_mode                                     libopencm3/lib/stm32/f1/gpio.stm32f1
+                                                  audi_stm32feb/fw/hw_usart.vo
+                                                  audi_stm32feb/fw/hw_gpio.vo
+                                                  audi_stm32feb/fw/hw_can.vo
+gpio_toggle                                       libopencm3/lib/stm32/common/gpio_common_all.stm32f1
+hard_fault_handler                                libopencm3/lib/cm3/vector.stm32f1
+hw_can_clr                                        audi_stm32feb/fw/hw_can.vo
+                                                  main.vo
+hw_can_disable                                    audi_stm32feb/fw/hw_can.vo
+hw_can_get_mscan                                  audi_stm32feb/fw/hw_can.vo
+                                                  hw.vo
+                                                  car.vo
+                                                  main.vo
+hw_can_get_msg                                    audi_stm32feb/fw/hw_can.vo
+                                                  car.vo
+                                                  main.vo
+hw_can_get_msg_nums                               audi_stm32feb/fw/hw_can.vo
+                                                  car.vo
+                                                  main.vo
+hw_can_get_pack_nums                              audi_stm32feb/fw/hw_can.vo
+                                                  main.vo
+hw_can_set_speed                                  audi_stm32feb/fw/hw_can.vo
+                                                  car.vo
+hw_can_setup                                      audi_stm32feb/fw/hw_can.vo
+                                                  hw.vo
+hw_can_sleep                                      audi_stm32feb/fw/hw_can.vo
+                                                  hw.vo
+hw_can_snd_msg                                    audi_stm32feb/fw/hw_can.vo
+hw_clock_setup                                    audi_stm32feb/fw/hw_clock.vo
+                                                  hw.vo
+hw_cpu_sleep                                      audi_stm32feb/fw/hw_sleep.vo
+                                                  hw.vo
+hw_gpio_acc_off                                   audi_stm32feb/fw/hw_gpio.vo
+                                                  main.vo
+hw_gpio_acc_on                                    audi_stm32feb/fw/hw_gpio.vo
+                                                  main.vo
+hw_gpio_clr                                       audi_stm32feb/fw/hw_gpio.vo
+hw_gpio_disable                                   audi_stm32feb/fw/hw_gpio.vo
+                                                  hw.vo
+hw_gpio_ill_off                                   audi_stm32feb/fw/hw_gpio.vo
+                                                  main.vo
+hw_gpio_ill_on                                    audi_stm32feb/fw/hw_gpio.vo
+                                                  main.vo
+hw_gpio_rear_off                                  audi_stm32feb/fw/hw_gpio.vo
+hw_gpio_rear_on                                   audi_stm32feb/fw/hw_gpio.vo
+hw_gpio_set                                       audi_stm32feb/fw/hw_gpio.vo
+hw_gpio_set_float                                 audi_stm32feb/fw/hw_gpio.vo
+                                                  audi_stm32feb/fw/hw_usart.vo
+                                                  audi_stm32feb/fw/hw_can.vo
+hw_gpio_setup                                     audi_stm32feb/fw/hw_gpio.vo
+                                                  hw.vo
+hw_setup                                          hw.vo
+                                                  main.vo
+hw_sleep                                          hw.vo
+                                                  main.vo
+hw_systick_callback                               tick.vo
+                                                  audi_stm32feb/fw/hw_tick.vo
+hw_systick_disable                                audi_stm32feb/fw/hw_tick.vo
+                                                  hw.vo
+hw_systick_setup                                  audi_stm32feb/fw/hw_tick.vo
+                                                  hw.vo
+hw_usart_disable                                  audi_stm32feb/fw/hw_usart.vo
+                                                  hw.vo
+hw_usart_get                                      audi_stm32feb/fw/hw_usart.vo
+                                                  hw.vo
+                                                  canbox.vo
+                                                  main.vo
+hw_usart_get_rx                                   audi_stm32feb/fw/hw_usart.vo
+hw_usart_get_rx_overflow                          audi_stm32feb/fw/hw_usart.vo
+hw_usart_get_tx                                   audi_stm32feb/fw/hw_usart.vo
+hw_usart_get_tx_overflow                          audi_stm32feb/fw/hw_usart.vo
+hw_usart_read_ch                                  audi_stm32feb/fw/hw_usart.vo
+                                                  main.vo
+hw_usart_setup                                    audi_stm32feb/fw/hw_usart.vo
+                                                  hw.vo
+hw_usart_write                                    audi_stm32feb/fw/hw_usart.vo
+                                                  canbox.vo
+                                                  main.vo
+i2c1_er_isr                                       libopencm3/lib/cm3/vector.stm32f1
+i2c1_ev_isr                                       libopencm3/lib/cm3/vector.stm32f1
+i2c2_er_isr                                       libopencm3/lib/cm3/vector.stm32f1
+i2c2_ev_isr                                       libopencm3/lib/cm3/vector.stm32f1
+is_timeout                                        car.vo
+iwdg_prescaler_busy                               libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+iwdg_reload_busy                                  libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+iwdg_reset                                        libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+iwdg_set_period_ms                                libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+iwdg_start                                        libopencm3/lib/stm32/common/iwdg_common_all.stm32f1
+key_cb                                            main.vo
+local_heap_setup                                  sbrk.vo
+main                                              main.vo
+                                                  libopencm3/lib/cm3/vector.stm32f1
+max_show_sniff_num                                main.vo
+mem_manage_handler                                libopencm3/lib/cm3/vector.stm32f1
+msg_idx                                           main.vo
+mutex_lock                                        libopencm3/lib/cm3/sync.stm32f1
+mutex_trylock                                     libopencm3/lib/cm3/sync.stm32f1
+mutex_unlock                                      libopencm3/lib/cm3/sync.stm32f1
+nmi_handler                                       libopencm3/lib/cm3/vector.stm32f1
+null_handler                                      libopencm3/lib/cm3/vector.stm32f1
+nvic_clear_pending_irq                            libopencm3/lib/cm3/nvic.stm32f1
+nvic_disable_irq                                  libopencm3/lib/cm3/nvic.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+nvic_enable_irq                                   libopencm3/lib/cm3/nvic.stm32f1
+                                                  audi_stm32feb/fw/hw_usart.vo
+                                                  audi_stm32feb/fw/hw_can.vo
+nvic_generate_software_interrupt                  libopencm3/lib/cm3/nvic.stm32f1
+nvic_get_active_irq                               libopencm3/lib/cm3/nvic.stm32f1
+nvic_get_irq_enabled                              libopencm3/lib/cm3/nvic.stm32f1
+nvic_get_pending_irq                              libopencm3/lib/cm3/nvic.stm32f1
+nvic_set_pending_irq                              libopencm3/lib/cm3/nvic.stm32f1
+nvic_set_priority                                 libopencm3/lib/cm3/nvic.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+otg_fs_isr                                        libopencm3/lib/cm3/vector.stm32f1
+pend_sv_handler                                   libopencm3/lib/cm3/vector.stm32f1
+print_debug                                       main.vo
+print_sniffer                                     main.vo
+pvd_isr                                           libopencm3/lib/cm3/vector.stm32f1
+pwr_clear_standby_flag                            libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+pwr_clear_wakeup_flag                             libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_sleep.vo
+pwr_disable_backup_domain_write_protect           libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+pwr_disable_power_voltage_detect                  libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+pwr_disable_wakeup_pin                            libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+pwr_enable_backup_domain_write_protect            libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+pwr_enable_power_voltage_detect                   libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+pwr_enable_wakeup_pin                             libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+pwr_get_standby_flag                              libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+pwr_get_wakeup_flag                               libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+pwr_set_standby_mode                              libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+pwr_set_stop_mode                                 libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_sleep.vo
+pwr_voltage_high                                  libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+pwr_voltage_regulator_low_power_in_stop           libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_sleep.vo
+pwr_voltage_regulator_on_in_stop                  libopencm3/lib/stm32/common/pwr_common_all.stm32f1
+rcc_ahb_frequency                                 libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_apb1_frequency                                libopencm3/lib/stm32/f1/rcc.stm32f1
+                                                  libopencm3/lib/stm32/common/usart_common_all.stm32f1
+rcc_apb2_frequency                                libopencm3/lib/stm32/f1/rcc.stm32f1
+                                                  libopencm3/lib/stm32/common/usart_common_all.stm32f1
+rcc_backupdomain_reset                            libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_clock_setup_in_hse_12mhz_out_72mhz            libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_clock_setup_in_hse_16mhz_out_72mhz            libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_clock_setup_in_hse_25mhz_out_72mhz            libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_clock_setup_in_hse_8mhz_out_24mhz             libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_clock_setup_in_hse_8mhz_out_72mhz             libopencm3/lib/stm32/f1/rcc.stm32f1
+                                                  audi_stm32feb/fw/hw_clock.vo
+rcc_clock_setup_in_hsi_out_24mhz                  libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_clock_setup_in_hsi_out_48mhz                  libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_clock_setup_in_hsi_out_64mhz                  libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_css_disable                                   libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_css_enable                                    libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_css_int_clear                                 libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_css_int_flag                                  libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_enable_rtc_clock                              libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_isr                                           libopencm3/lib/cm3/vector.stm32f1
+rcc_osc_bypass_disable                            libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_osc_bypass_enable                             libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_osc_off                                       libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_osc_on                                        libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_osc_ready_int_clear                           libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_osc_ready_int_disable                         libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_osc_ready_int_enable                          libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_osc_ready_int_flag                            libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_periph_clock_disable                          libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_can.vo
+rcc_periph_clock_enable                           libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_sleep.vo
+                                                  audi_stm32feb/fw/hw_usart.vo
+                                                  audi_stm32feb/fw/hw_gpio.vo
+                                                  audi_stm32feb/fw/hw_can.vo
+                                                  audi_stm32feb/fw/hw_clock.vo
+rcc_periph_reset_hold                             libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+rcc_periph_reset_pulse                            libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+rcc_periph_reset_release                          libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+rcc_peripheral_clear_reset                        libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+                                                  libopencm3/lib/stm32/can.stm32f1
+rcc_peripheral_disable_clock                      libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+rcc_peripheral_enable_clock                       libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+rcc_peripheral_reset                              libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+                                                  libopencm3/lib/stm32/can.stm32f1
+rcc_rtc_clock_enabled_flag                        libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_set_adcpre                                    libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_set_hpre                                      libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_set_mco                                       libopencm3/lib/stm32/common/rcc_common_all.stm32f1
+rcc_set_pll2_multiplication_factor                libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_set_pll3_multiplication_factor                libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_set_pll_multiplication_factor                 libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_set_pll_source                                libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_set_pllxtpre                                  libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_set_ppre1                                     libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_set_ppre2                                     libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_set_prediv1                                   libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_set_prediv1_source                            libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_set_prediv2                                   libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_set_rtc_clock_source                          libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_set_sysclk_source                             libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_set_usbpre                                    libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_system_clock_source                           libopencm3/lib/stm32/f1/rcc.stm32f1
+rcc_wait_for_osc_ready                            libopencm3/lib/stm32/f1/rcc.stm32f1
+reset_handler                                     libopencm3/lib/cm3/vector.stm32f1
+ring_get_overflow                                 ring.vo
+                                                  audi_stm32feb/fw/hw_usart.vo
+ring_init                                         ring.vo
+                                                  audi_stm32feb/fw/hw_usart.vo
+ring_read_ch                                      ring.vo
+                                                  audi_stm32feb/fw/hw_usart.vo
+ring_write                                        ring.vo
+                                                  audi_stm32feb/fw/hw_usart.vo
+ring_write_ch                                     ring.vo
+                                                  audi_stm32feb/fw/hw_usart.vo
+rtc_alarm_isr                                     libopencm3/lib/cm3/vector.stm32f1
+rtc_isr                                           libopencm3/lib/cm3/vector.stm32f1
+sdio_isr                                          libopencm3/lib/cm3/vector.stm32f1
+sniffer_on                                        main.vo
+spi1_isr                                          libopencm3/lib/cm3/vector.stm32f1
+spi2_isr                                          libopencm3/lib/cm3/vector.stm32f1
+spi3_isr                                          libopencm3/lib/cm3/vector.stm32f1
+strlen                                            /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+                                                  canbox.vo
+                                                  main.vo
+sv_call_handler                                   libopencm3/lib/cm3/vector.stm32f1
+sys_tick_handler                                  audi_stm32feb/fw/hw_tick.vo
+systick_clear                                     libopencm3/lib/cm3/systick.stm32f1
+systick_counter_disable                           libopencm3/lib/cm3/systick.stm32f1
+                                                  audi_stm32feb/fw/hw_tick.vo
+systick_counter_enable                            libopencm3/lib/cm3/systick.stm32f1
+                                                  audi_stm32feb/fw/hw_tick.vo
+systick_get_calib                                 libopencm3/lib/cm3/systick.stm32f1
+systick_get_countflag                             libopencm3/lib/cm3/systick.stm32f1
+systick_get_reload                                libopencm3/lib/cm3/systick.stm32f1
+systick_get_value                                 libopencm3/lib/cm3/systick.stm32f1
+systick_interrupt_disable                         libopencm3/lib/cm3/systick.stm32f1
+                                                  audi_stm32feb/fw/hw_tick.vo
+systick_interrupt_enable                          libopencm3/lib/cm3/systick.stm32f1
+                                                  audi_stm32feb/fw/hw_tick.vo
+systick_set_clocksource                           libopencm3/lib/cm3/systick.stm32f1
+                                                  audi_stm32feb/fw/hw_tick.vo
+systick_set_frequency                             libopencm3/lib/cm3/systick.stm32f1
+systick_set_reload                                libopencm3/lib/cm3/systick.stm32f1
+                                                  audi_stm32feb/fw/hw_tick.vo
+tamper_isr                                        libopencm3/lib/cm3/vector.stm32f1
+tim1_brk_isr                                      libopencm3/lib/cm3/vector.stm32f1
+tim1_cc_isr                                       libopencm3/lib/cm3/vector.stm32f1
+tim1_trg_com_isr                                  libopencm3/lib/cm3/vector.stm32f1
+tim1_up_isr                                       libopencm3/lib/cm3/vector.stm32f1
+tim2_isr                                          libopencm3/lib/cm3/vector.stm32f1
+tim3_isr                                          libopencm3/lib/cm3/vector.stm32f1
+tim4_isr                                          libopencm3/lib/cm3/vector.stm32f1
+tim5_isr                                          libopencm3/lib/cm3/vector.stm32f1
+tim6_isr                                          libopencm3/lib/cm3/vector.stm32f1
+tim7_isr                                          libopencm3/lib/cm3/vector.stm32f1
+tim8_brk_isr                                      libopencm3/lib/cm3/vector.stm32f1
+tim8_cc_isr                                       libopencm3/lib/cm3/vector.stm32f1
+tim8_trg_com_isr                                  libopencm3/lib/cm3/vector.stm32f1
+tim8_up_isr                                       libopencm3/lib/cm3/vector.stm32f1
+timer                                             tick.vo
+                                                  main.vo
+uart4_isr                                         libopencm3/lib/cm3/vector.stm32f1
+uart5_isr                                         libopencm3/lib/cm3/vector.stm32f1
+usage_fault_handler                               libopencm3/lib/cm3/vector.stm32f1
+usart1_isr                                        audi_stm32feb/fw/hw_usart.vo
+usart2_isr                                        libopencm3/lib/cm3/vector.stm32f1
+usart3_isr                                        libopencm3/lib/cm3/vector.stm32f1
+usart_disable                                     libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_usart.vo
+usart_disable_error_interrupt                     libopencm3/lib/stm32/common/usart_common_all.stm32f1
+usart_disable_rx_dma                              libopencm3/lib/stm32/common/usart_common_all.stm32f1
+usart_disable_rx_interrupt                        libopencm3/lib/stm32/common/usart_common_all.stm32f1
+usart_disable_tx_dma                              libopencm3/lib/stm32/common/usart_common_all.stm32f1
+usart_disable_tx_interrupt                        libopencm3/lib/stm32/common/usart_common_all.stm32f1
+usart_enable                                      libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_usart.vo
+usart_enable_error_interrupt                      libopencm3/lib/stm32/common/usart_common_all.stm32f1
+usart_enable_rx_dma                               libopencm3/lib/stm32/common/usart_common_all.stm32f1
+usart_enable_rx_interrupt                         libopencm3/lib/stm32/common/usart_common_all.stm32f1
+usart_enable_tx_dma                               libopencm3/lib/stm32/common/usart_common_all.stm32f1
+usart_enable_tx_interrupt                         libopencm3/lib/stm32/common/usart_common_all.stm32f1
+usart_get_flag                                    libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+usart_get_interrupt_source                        libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+usart_isr                                         audi_stm32feb/fw/hw_usart.vo
+usart_isr_cnt                                     audi_stm32feb/fw/hw_usart.vo
+usart_recv                                        libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+                                                  libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_usart.vo
+usart_recv_blocking                               libopencm3/lib/stm32/common/usart_common_all.stm32f1
+usart_send                                        libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+                                                  libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_usart.vo
+usart_send_blocking                               libopencm3/lib/stm32/common/usart_common_all.stm32f1
+usart_set_baudrate                                libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_usart.vo
+usart_set_databits                                libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_usart.vo
+usart_set_flow_control                            libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_usart.vo
+usart_set_mode                                    libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_usart.vo
+usart_set_parity                                  libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_usart.vo
+usart_set_stopbits                                libopencm3/lib/stm32/common/usart_common_all.stm32f1
+                                                  audi_stm32feb/fw/hw_usart.vo
+usart_wait_recv_ready                             libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+                                                  libopencm3/lib/stm32/common/usart_common_all.stm32f1
+usart_wait_send_ready                             libopencm3/lib/stm32/common/usart_common_f124.stm32f1
+                                                  libopencm3/lib/stm32/common/usart_common_all.stm32f1
+usb_hp_can_tx_isr                                 libopencm3/lib/cm3/vector.stm32f1
+usb_lp_can_rx0_isr                                audi_stm32feb/fw/hw_can.vo
+usb_wakeup_isr                                    libopencm3/lib/cm3/vector.stm32f1
+vector_table                                      libopencm3/lib/cm3/vector.stm32f1
+wakeups                                           main.vo
+wwdg_isr                                          libopencm3/lib/cm3/vector.stm32f1

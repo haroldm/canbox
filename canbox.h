@@ -8,7 +8,7 @@ extern "C"
 {
 #endif
 
-void canbox_process(void);
+//void canbox_process(void);
 
 void canbox_inc_volume(uint8_t val);
 void canbox_dec_volume(uint8_t val);
