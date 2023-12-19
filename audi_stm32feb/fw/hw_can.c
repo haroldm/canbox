@@ -19,8 +19,8 @@ typedef struct speed_t
 /* APB1 36 MHz 87.5% sjw=1 */
 static speed_t speeds[e_speed_nums] = 
 {
-//	{ CAN_BTR_SJW_1TQ, CAN_BTR_TS1_13TQ, CAN_BTR_TS2_2TQ, 22 },
-	{ CAN_BTR_SJW_1TQ, CAN_BTR_TS1_15TQ, CAN_BTR_TS2_2TQ, 20 },
+	{ CAN_BTR_SJW_1TQ, CAN_BTR_TS1_13TQ, CAN_BTR_TS2_2TQ, 22 },
+	// { CAN_BTR_SJW_1TQ, CAN_BTR_TS1_15TQ, CAN_BTR_TS2_2TQ, 20 },
 	{ CAN_BTR_SJW_1TQ, CAN_BTR_TS1_13TQ, CAN_BTR_TS2_2TQ, 18 },
 	{ CAN_BTR_SJW_1TQ, CAN_BTR_TS1_13TQ, CAN_BTR_TS2_2TQ, 9 },
 	{ CAN_BTR_SJW_1TQ, CAN_BTR_TS1_15TQ, CAN_BTR_TS2_2TQ, 4 },
@@ -30,7 +30,7 @@ static speed_t speeds[e_speed_nums] =
 /* APB1 36 MHz 75% sjw=2 */
 static speed_t speeds[e_speed_nums] = 
 {
-//	{ CAN_BTR_SJW_2TQ, CAN_BTR_TS1_13TQ, CAN_BTR_TS2_4TQ, 20 },
+	// { CAN_BTR_SJW_2TQ, CAN_BTR_TS1_13TQ, CAN_BTR_TS2_4TQ, 20 },
 	{ CAN_BTR_SJW_2TQ, CAN_BTR_TS1_14TQ, CAN_BTR_TS2_5TQ, 18 },
 	{ CAN_BTR_SJW_2TQ, CAN_BTR_TS1_13TQ, CAN_BTR_TS2_4TQ, 16 },
 	{ CAN_BTR_SJW_2TQ, CAN_BTR_TS1_13TQ, CAN_BTR_TS2_4TQ, 8 },
@@ -145,10 +145,10 @@ uint8_t hw_can_setup(struct can_t * can, e_speed_t speed)
 	/* Configure CAN pin: TX. */
 	gpio_set_mode(can->tx.port, GPIO_MODE_OUTPUT_50_MHZ, GPIO_CNF_OUTPUT_ALTFN_PUSHPULL, can->tx.pin);
 
-	rcc_periph_clock_enable(can->s.rcc);
-	//silent mode - disable tx zl1040
-	gpio_set(can->s.port, can->s.pin);
-	gpio_set_mode(can->s.port, GPIO_MODE_OUTPUT_50_MHZ, GPIO_CNF_OUTPUT_OPENDRAIN, can->s.pin);
+	// rcc_periph_clock_enable(can->s.rcc);
+	// //silent mode - disable tx zl1040
+	// gpio_set(can->s.port, can->s.pin);
+	// gpio_set_mode(can->s.port, GPIO_MODE_OUTPUT_50_MHZ, GPIO_CNF_OUTPUT_OPENDRAIN, can->s.pin);
 
 	/* NVIC setup. */
 	nvic_enable_irq(can->irq);
@@ -165,10 +165,10 @@ void hw_can_disable(struct can_t * can)
 	can_reset(can->baddr);
 	rcc_periph_clock_disable(can->rcc);
 
-	rcc_periph_clock_enable(can->s.rcc);
-	//silent mode - disable tx zl1040
-	gpio_set(can->s.port, can->s.pin);
-	rcc_periph_clock_disable(can->s.rcc);
+	// rcc_periph_clock_enable(can->s.rcc);
+	// //silent mode - disable tx zl1040
+	// gpio_set(can->s.port, can->s.pin);
+	// rcc_periph_clock_disable(can->s.rcc);
 
 	rcc_periph_clock_enable(can->rx.rcc);
 	hw_gpio_set_float(&can->tx);
@@ -272,9 +272,9 @@ void hw_can_clr(struct can_t * can)
 void hw_can_sleep(struct can_t * can)
 {
 	//silent mode - disable tx zl1040
-	rcc_periph_clock_enable(can->s.rcc);
-	gpio_set(can->s.port, can->s.pin);
-	gpio_set_mode(can->s.port, GPIO_MODE_OUTPUT_50_MHZ, GPIO_CNF_OUTPUT_OPENDRAIN, can->s.pin);
+	// rcc_periph_clock_enable(can->s.rcc);
+	// gpio_set(can->s.port, can->s.pin);
+	// gpio_set_mode(can->s.port, GPIO_MODE_OUTPUT_50_MHZ, GPIO_CNF_OUTPUT_OPENDRAIN, can->s.pin);
 
 #if 1
 	hw_can_disable(can);

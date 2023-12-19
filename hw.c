@@ -27,7 +27,7 @@ void hw_setup(void)
 
 	hw_usart_setup(hw_usart_get(), 38400, usart_tx_ring_buffer, sizeof(usart_tx_ring_buffer), usart_rx_ring_buffer, sizeof(usart_rx_ring_buffer));
 
-	hw_can_setup(hw_can_get_mscan(), e_speed_125);
+	hw_can_setup(hw_can_get_mscan(), e_speed_100);
 
 	// hw_conf_setup();
 

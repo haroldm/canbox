@@ -1,6 +1,7 @@
 static struct msg_desc_t a3_2011_ms[] =
 {
-	{ 0x2c3,  100, 0, 0, q3_2015_ms_2c3_handler }, // ACC
+	// should be 100
+	{ 0x2c3,  1000, 0, 0, q3_2015_ms_2c3_handler }, // ACC
 	// { 0x65F,  200, 0, 0, q3_2015_ms_65F_handler }, // VIN
 	// { 0x65D, 1000, 0, 0, q3_2015_ms_65D_handler }, // Odometer
 	// { 0x571,  600, 0, 0, q3_2015_ms_571_handler }, // Voltage
