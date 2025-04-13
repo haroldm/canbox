@@ -38,6 +38,36 @@ static void q3_2015_ms_635_handler(const uint8_t * msg, struct msg_desc_t * desc
 	carstate.illum = scale(msg[1], 0x00, 0x63, 0, 100);
 }
 
+a3_2011_ms_5c3_handler
+
+static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc)
+{
+	switch (msg[1]) {
+		// case 0x00: // rien
+		// 	break;
+		case 0x06: // vol up 39 06
+			// call send_cmd_resistor(vol up)
+			//  send_cmd_resistor is:
+			// 		1. setting resistance in the i2c potentiometer
+			//      2. turning on mosfet
+			//      3. setting flag so the interrupt loop will turn off the mosfet at some point
+			 
+			break;
+		case 0x07: // vol down 39 07
+			break;
+		case 0xa7: // vol push  3b a7
+			break;
+		case 0x02: // up 3a 02
+			break;
+		case 0x03: // down 3a 03
+			break;
+		// case 0x2a: // mic 3c 2a
+		// 	break;
+		// case 0x01: //mode 39 01
+		// 	break;
+	}
+}
+
 
 static struct msg_desc_t q3_2015_ms[] =
 {
@@ -49,7 +79,7 @@ static struct msg_desc_t q3_2015_ms[] =
 	// { 0x359,  100, 0, 0, q3_2015_ms_359_handler }, // Gear selector
 //TODO	// { 0x5BF,  100, 0, 0, q3_2015_ms_5BF_handler }, // Keys
 	{ 0x635,  100, 0, 0, q3_2015_ms_635_handler }, // Illum
-	// { 0x3c3,  100, 0, 0, q3_2015_ms_3c3_handler }, // Wheel
+	{ 0x5c3,  500, 0, 0, a3_2011_ms_5c3_handler }, // media keys
 	// { 0x35b,  100, 0, 0, q3_2015_ms_35b_handler }, // Taho
 	// { 0x621,  100, 0, 0, q3_2015_ms_621_handler }, // Break
 	// { 0x6DA,   50, 0, 0, q3_2015_ms_6DA_handler }, // Parks

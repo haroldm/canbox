@@ -9,7 +9,7 @@ static struct msg_desc_t a3_2011_ms[] =
 	// { 0x359,  100, 0, 0, q3_2015_ms_359_handler }, // Gear selector
 	// { 0x5BF,  100, 0, 0, q3_2015_ms_5BF_handler }, // Keys
 	{ 0x635,  100, 0, 0, q3_2015_ms_635_handler }, // Illum
-	// { 0x3c3,  100, 0, 0, q3_2015_ms_3c3_handler }, // Wheel
+	{ 0x5c3,  500, 0, 0, a3_2011_ms_5c3_handler }, // media keys
 	// { 0x35b,  100, 0, 0, q3_2015_ms_35b_handler }, // Taho
 	// { 0x621,  100, 0, 0, q3_2015_ms_621_handler }, // Break
 	// { 0x6DA,   50, 0, 0, q3_2015_ms_6DA_handler }, // Parks
