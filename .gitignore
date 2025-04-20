@@ -1,0 +1,5 @@
+*.vo
+*.bin
+*.elf
+*.map
+libopencm3/*
