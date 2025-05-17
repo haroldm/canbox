@@ -29,6 +29,13 @@ typedef struct car_state_t
 	//in percentages -100% : 100%
 	// int8_t wheel;
 
+	uint8_t fl_door;
+	uint8_t fr_door;
+	uint8_t rl_door;
+	uint8_t rr_door;
+	uint8_t bonnet;
+	uint8_t tailgate;
+
 } car_state_t;
 
 static car_state_t carstate =
@@ -45,6 +52,12 @@ static car_state_t carstate =
 	// .radar = { .state = STATE_UNDEF, },
 	// .wheel = 0,
 
+	.fl_door = STATE_UNDEF,
+	.fr_door = STATE_UNDEF,
+	.rl_door = STATE_UNDEF,
+	.rr_door = STATE_UNDEF,
+	.bonnet = STATE_UNDEF,
+	.tailgate = STATE_UNDEF,
 };
 
 typedef struct key_state_t

@@ -123,6 +123,35 @@ static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc
 	}
 }
 
+static void q3_2015_ms_470_handler(const uint8_t * msg, struct msg_desc_t * desc)
+{
+	if (is_timeout(desc)) {
+
+		carstate.fl_door = STATE_UNDEF;
+		carstate.fr_door = STATE_UNDEF;
+		carstate.rl_door = STATE_UNDEF;
+		carstate.rr_door = STATE_UNDEF;
+		carstate.bonnet = STATE_UNDEF;
+		carstate.tailgate = STATE_UNDEF;
+
+		return;
+	}
+
+	// 0x470 : 00 00 24 16 20 00 00 00
+
+	if (carstate.fl_door == 0 && (msg[1] & 0x01) == 1) {
+		hw_usart_write(hw_usart_get(), "door open\n", 12);
+
+	} else if (carstate.fl_door == 1 && (msg[1] & 0x01) == 0) {
+		hw_usart_write(hw_usart_get(), "door close\n", 12);
+	}
+	carstate.fl_door  = (msg[1] & 0x01) ? 1 : 0;
+	carstate.fr_door  = (msg[1] & 0x02) ? 1 : 0;
+	carstate.rl_door  = (msg[1] & 0x04) ? 1 : 0;
+	carstate.rr_door  = (msg[1] & 0x08) ? 1 : 0;
+	carstate.bonnet   = (msg[1] & 0x10) ? 1 : 0;
+	carstate.tailgate = (msg[1] & 0x20) ? 1 : 0; // 60 or 20?
+}
 
 static struct msg_desc_t q3_2015_ms[] =
 {

@@ -5,7 +5,7 @@ static struct msg_desc_t a3_2011_ms[] =
 	// { 0x65F,  200, 0, 0, q3_2015_ms_65F_handler }, // VIN
 	// { 0x65D, 1000, 0, 0, q3_2015_ms_65D_handler }, // Odometer
 	// { 0x571,  600, 0, 0, q3_2015_ms_571_handler }, // Voltage
-	// { 0x470,   50, 0, 0, q3_2015_ms_470_handler }, // Doors
+	 { 0x470,   50, 0, 0, q3_2015_ms_470_handler }, // Doors
 	// { 0x359,  100, 0, 0, q3_2015_ms_359_handler }, // Gear selector
 	// { 0x5BF,  100, 0, 0, q3_2015_ms_5BF_handler }, // Keys
 	// TODO: this was 100. if I put 1000, does that fix the illumination sensor?
