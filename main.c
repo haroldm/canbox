@@ -430,15 +430,29 @@ void print_debug(void)
 
 static void gpio_process(void)
 {
+	static uint8_t ign_seen = 0;
+
 	uint8_t acc = car_get_acc();
-//	uint8_t ign = car_get_ign();
+	uint8_t ign = car_get_ign();
 //	uint8_t park_lights = car_get_park_lights();
 	uint8_t ill = car_get_illum();
+	
+	// Track if IGN was ever on
+	if (ign)
+		ign_seen = 1;
 
-	if (acc)
-		hw_gpio_acc_on();
-	else
-		hw_gpio_acc_off();
+	// ACC logic
+	if (acc) {
+		if (ign_seen) {
+			hw_gpio_acc_on();
+		} else {
+			hw_gpio_acc_off();  // Don't enable ACC GPIO until IGN has been on
+		}
+	} else {
+		hw_gpio_acc_off();      // Turn off ACC GPIO if ACC is off
+		ign_seen = 0;
+	}
+
 
 	if (ill > conf_get_illum())
 		hw_gpio_ill_on();
