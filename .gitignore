@@ -2,4 +2,4 @@
 *.bin
 *.elf
 *.map
-libopencm3/*
+*.stm32f1
