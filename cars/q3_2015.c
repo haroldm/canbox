@@ -1,3 +1,4 @@
+#include "hw_i2c.h"
 #include "hw_usart.h"
 
 // Helper to convert a single nibble to hex
@@ -80,6 +81,8 @@ static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc
 {
 	// TODO: because pressing buttons sends a burst of CAN messages, we should only trigger an UART write
 	// and a digital potentiometer change when 0x00 happens between messages
+	static uint8_t last_msg = 0;
+
 	char buf[6];
 	switch (msg[1]) {
 		// case 0x00: // rien
@@ -90,7 +93,13 @@ static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc
 			// 		1. setting resistance in the i2c potentiometer
 			//      2. turning on mosfet
 			//      3. setting flag so the interrupt loop will turn off the mosfet at some point
-			hw_usart_write(hw_usart_get(), "vol+\n", 5);
+			if (last_msg == 0) {
+				last_msg = 0x06;
+				struct i2c_t *i2c = hw_i2c_get();
+				uint8_t data_to_write = 64; // example wiper value for AD5246
+				hw_i2c_write(i2c->baddr, 0x2E, &data_to_write, 1);
+				hw_usart_write(hw_usart_get(), "vol+\n", 5);
+			}
 			break;
 		case 0x07: // vol down 39 07
 			hw_usart_write(hw_usart_get(), "vol-\n", 5);
@@ -111,7 +120,13 @@ static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc
 		case 0x01: //mode 39 01 when getting out of tel mode. getting in tel mode is 3a 1c
 			hw_usart_write(hw_usart_get(), "mode\n", 5);
 			break;
-		case 0x00: //39 00 when empty
+		case 0x00: //39 00 when empty	
+			if (last_msg != 0) {
+				last_msg = 0;
+				struct i2c_t *i2c = hw_i2c_get();
+				uint8_t data_to_write = 0; // example wiper value for AD5246
+				hw_i2c_write(i2c->baddr, 0x2E, &data_to_write, 1);
+			}
 			break;
 		default:	
 			byte_to_hex(msg[0], &buf[0]);

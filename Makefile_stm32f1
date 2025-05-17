@@ -14,6 +14,7 @@ LIBOPENCM3_OBJS = $(LIBOPENCM3_DIR)/lib/stm32/f1/gpio.stm32f1 \
 		$(LIBOPENCM3_DIR)/lib/stm32/f1/flash.stm32f1 \
 		$(LIBOPENCM3_DIR)/lib/stm32/common/gpio_common_all.stm32f1 \
 		$(LIBOPENCM3_DIR)/lib/stm32/common/usart_common_all.stm32f1 \
+		$(LIBOPENCM3_DIR)/lib/stm32/common/i2c_common_all.stm32f1 \
 		$(LIBOPENCM3_DIR)/lib/stm32/common/usart_common_f124.stm32f1 \
 		$(LIBOPENCM3_DIR)/lib/stm32/common/rcc_common_all.stm32f1 \
 		$(LIBOPENCM3_DIR)/lib/stm32/common/pwr_common_all.stm32f1 \

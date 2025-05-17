@@ -1,6 +1,7 @@
 QEMU_OBJS = qemu/fw/hw_clock.qemu \
 		qemu/fw/hw_can.qemu \
 		qemu/fw/hw_gpio.qemu \
+		qemu/fw/hw_i2c.qemu \
 		qemu/fw/hw_tick.qemu \
 		qemu/fw/hw_usart.qemu \
 		qemu/fw/hw_sleep.qemu \

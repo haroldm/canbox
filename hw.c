@@ -5,6 +5,7 @@
 #include "hw.h"
 #include "hw_clock.h"
 #include "hw_can.h"
+#include "hw_i2c.h"
 #include "hw_tick.h"
 #include "hw_usart.h"
 // #include "hw_conf.h"
@@ -14,6 +15,9 @@
 
 static uint8_t usart_tx_ring_buffer[512];
 static uint8_t usart_rx_ring_buffer[32];
+
+uint8_t txbuf[32];
+uint8_t rxbuf[32];
 
 void hw_setup(void)
 {
@@ -28,6 +32,11 @@ void hw_setup(void)
 	hw_usart_setup(hw_usart_get(), 38400, usart_tx_ring_buffer, sizeof(usart_tx_ring_buffer), usart_rx_ring_buffer, sizeof(usart_rx_ring_buffer));
 
 	hw_can_setup(hw_can_get_mscan(), e_speed_100);
+
+	struct i2c_t *i2c = hw_i2c_get();
+    hw_i2c_setup(i2c, 100000, txbuf, sizeof(txbuf), rxbuf, sizeof(rxbuf));
+	uint8_t data_to_write = 0; // example wiper value for AD5246
+	hw_i2c_write(i2c->baddr, 0x2E, &data_to_write, 1);
 
 	// hw_conf_setup();
 

@@ -1,6 +1,7 @@
 AUDI_STM32FEB_OBJS = audi_stm32feb/fw/hw_clock.vo \
 		audi_stm32feb/fw/hw_can.vo \
 		audi_stm32feb/fw/hw_gpio.vo \
+		audi_stm32feb/fw/hw_i2c.vo \
 		audi_stm32feb/fw/hw_tick.vo \
 		audi_stm32feb/fw/hw_usart.vo \
 		audi_stm32feb/fw/hw_sleep.vo
