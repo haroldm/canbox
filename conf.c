@@ -38,7 +38,7 @@ struct conf_t conf =
 
 	.idx = 0,
 	.car = e_car_anymsg,
-	.illum = 50,
+	.illum = 2,
 	.rear_delay = 1500,
 	.canbox = e_cb_raise_vw_pq,
 

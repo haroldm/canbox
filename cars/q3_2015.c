@@ -1,3 +1,17 @@
+#include "hw_usart.h"
+
+// Helper to convert a single nibble to hex
+static char nibble_to_hex(uint8_t nibble) {
+    return (nibble < 10) ? ('0' + nibble) : ('a' + nibble - 10);
+}
+
+// Helper to convert a byte to 2-character hex
+static void byte_to_hex(uint8_t byte, char *out) {
+    out[0] = nibble_to_hex((byte >> 4) & 0xF);
+    out[1] = nibble_to_hex(byte & 0xF);
+}
+
+
 // CAN COMFORT
 static void q3_2015_ms_2c3_handler(const uint8_t * msg, struct msg_desc_t * desc)
 {
@@ -35,13 +49,38 @@ static void q3_2015_ms_635_handler(const uint8_t * msg, struct msg_desc_t * desc
 		return;
 	}
 
-	carstate.illum = scale(msg[1], 0x00, 0x63, 0, 100);
-}
+	// the logic below is useless. here the audi sends a value between 0 and 100=0x64 that doesn't need scaling
+	// the value of conf.illum in conf.c is important.
 
-a3_2011_ms_5c3_handler
+	// day: msg[1] == 0
+	// night: msg[1] == 0x64
+	
+	// night: between 0x06 and 0x64 
+
+	// char buf[9];
+	// buf[0] = 'I';
+	// buf[1] = 'L';
+	// buf[2] = ' ';
+	// byte_to_hex(msg[0], &buf[3]);
+	// buf[5] = ' ';
+	// byte_to_hex(msg[1], &buf[6]);
+	// buf[8] = '\n';
+	// hw_usart_write(hw_usart_get(), (uint8_t *)buf, 9);
+
+	if (msg[1] == 0) {
+		carstate.illum = 0;
+	} else if (msg[1] == 0x64) {
+		carstate.illum = 100;
+	} else { //legacy
+		carstate.illum = scale(msg[1], 0x00, 0x64, 0, 100);
+	}
+}
 
 static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc)
 {
+	// TODO: because pressing buttons sends a burst of CAN messages, we should only trigger an UART write
+	// and a digital potentiometer change when 0x00 happens between messages
+	char buf[6];
 	switch (msg[1]) {
 		// case 0x00: // rien
 		// 	break;
@@ -51,20 +90,36 @@ static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc
 			// 		1. setting resistance in the i2c potentiometer
 			//      2. turning on mosfet
 			//      3. setting flag so the interrupt loop will turn off the mosfet at some point
-			 
+			hw_usart_write(hw_usart_get(), "vol+\n", 5);
 			break;
 		case 0x07: // vol down 39 07
+			hw_usart_write(hw_usart_get(), "vol-\n", 5);
 			break;
 		case 0xa7: // vol push  3b a7
+			hw_usart_write(hw_usart_get(), "vol push\n", 9);
 			break;
-		case 0x02: // up 3a 02
+		case 0x0b: // up 39 0b (tel mode is 3a 02)
+			hw_usart_write(hw_usart_get(), "up\n", 3);
 			break;
-		case 0x03: // down 3a 03
+		case 0x0c: // down 39 0c (tel mode is 3a 03)
+			hw_usart_write(hw_usart_get(), "down\n", 5);
 			break;
-		// case 0x2a: // mic 3c 2a
-		// 	break;
-		// case 0x01: //mode 39 01
-		// 	break;
+		// case 0x08: // push left button 39 08
+		case 0x2a: // mic 3c 2a
+			hw_usart_write(hw_usart_get(), "2a\n", 3);
+			break;
+		case 0x01: //mode 39 01 when getting out of tel mode. getting in tel mode is 3a 1c
+			hw_usart_write(hw_usart_get(), "mode\n", 5);
+			break;
+		case 0x00: //39 00 when empty
+			break;
+		default:	
+			byte_to_hex(msg[0], &buf[0]);
+			buf[2] = ' ';
+			byte_to_hex(msg[1], &buf[3]);
+			buf[5] = '\n';
+			hw_usart_write(hw_usart_get(), (uint8_t *)buf, 6);
+			break;
 	}
 }
 

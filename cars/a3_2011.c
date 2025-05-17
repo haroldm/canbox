@@ -8,7 +8,9 @@ static struct msg_desc_t a3_2011_ms[] =
 	// { 0x470,   50, 0, 0, q3_2015_ms_470_handler }, // Doors
 	// { 0x359,  100, 0, 0, q3_2015_ms_359_handler }, // Gear selector
 	// { 0x5BF,  100, 0, 0, q3_2015_ms_5BF_handler }, // Keys
-	{ 0x635,  100, 0, 0, q3_2015_ms_635_handler }, // Illum
+	// TODO: this was 100. if I put 1000, does that fix the illumination sensor?
+	{ 0x635,  1000, 0, 0, q3_2015_ms_635_handler }, // Illum
+	// TODO conf that
 	{ 0x5c3,  500, 0, 0, a3_2011_ms_5c3_handler }, // media keys
 	// { 0x35b,  100, 0, 0, q3_2015_ms_35b_handler }, // Taho
 	// { 0x621,  100, 0, 0, q3_2015_ms_621_handler }, // Break
