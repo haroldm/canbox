@@ -35,7 +35,7 @@ static void q3_2015_ms_2c3_handler(const uint8_t * msg, struct msg_desc_t * desc
 	else
 		carstate.acc = 0;
 
-	if ((msg[0] & 0x02) == 0x02)
+	if ((msg[0] & 0x08) == 0x08)
 		carstate.ign = 1;
 	else
 		carstate.ign = 0;
@@ -79,62 +79,63 @@ static void q3_2015_ms_635_handler(const uint8_t * msg, struct msg_desc_t * desc
 
 static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc)
 {
-	// TODO: because pressing buttons sends a burst of CAN messages, we should only trigger an UART write
-	// and a digital potentiometer change when 0x00 happens between messages
 	static uint8_t last_msg = 0;
 
 	char buf[6];
-	switch (msg[1]) {
-		// case 0x00: // rien
-		// 	break;
-		case 0x06: // vol up 39 06
-			// call send_cmd_resistor(vol up)
-			//  send_cmd_resistor is:
-			// 		1. setting resistance in the i2c potentiometer
-			//      2. turning on mosfet
-			//      3. setting flag so the interrupt loop will turn off the mosfet at some point
-			if (last_msg == 0) {
-				last_msg = 0x06;
-				struct i2c_t *i2c = hw_i2c_get();
-				uint8_t data_to_write = 64; // example wiper value for AD5246
+	if (last_msg != msg[1]) {
+		last_msg = msg[1];
+
+		struct i2c_t *i2c = hw_i2c_get();
+		uint8_t data_to_write = 0;
+	
+		switch (msg[1]) {
+			case 0x06: // vol up 39 06
+				// call send_cmd_resistor(vol up)
+				//  send_cmd_resistor is:
+				// 		1. setting resistance in the i2c potentiometer
+				//      2. turning on mosfet
+				//      3. setting flag so the interrupt loop will turn off the mosfet at some point
+				data_to_write = 64;
 				hw_i2c_write(i2c->baddr, 0x2E, &data_to_write, 1);
 				hw_usart_write(hw_usart_get(), "vol+\n", 5);
-			}
-			break;
-		case 0x07: // vol down 39 07
-			hw_usart_write(hw_usart_get(), "vol-\n", 5);
-			break;
-		case 0xa7: // vol push  3b a7
-			hw_usart_write(hw_usart_get(), "vol push\n", 9);
-			break;
-		case 0x0b: // up 39 0b (tel mode is 3a 02)
-			hw_usart_write(hw_usart_get(), "up\n", 3);
-			break;
-		case 0x0c: // down 39 0c (tel mode is 3a 03)
-			hw_usart_write(hw_usart_get(), "down\n", 5);
-			break;
-		// case 0x08: // push left button 39 08
-		case 0x2a: // mic 3c 2a
-			hw_usart_write(hw_usart_get(), "2a\n", 3);
-			break;
-		case 0x01: //mode 39 01 when getting out of tel mode. getting in tel mode is 3a 1c
-			hw_usart_write(hw_usart_get(), "mode\n", 5);
-			break;
-		case 0x00: //39 00 when empty	
-			if (last_msg != 0) {
-				last_msg = 0;
+				break;
+			case 0x07: // vol down 39 07
+				hw_usart_write(hw_usart_get(), "vol-\n", 5);
+				break;
+			case 0xa7: // vol push  3b a7
+				hw_usart_write(hw_usart_get(), "vol push\n", 9);
+				break;
+			case 0x0b: // up 39 0b (tel mode is 3a 02)
+				hw_usart_write(hw_usart_get(), "up\n", 3);
+				break;
+			case 0x0c: // down 39 0c (tel mode is 3a 03)
+				hw_usart_write(hw_usart_get(), "down\n", 5);
+				break;
+			// case 0x08: // push left button 39 08
+			case 0x2a: // mic 3c 2a
+				hw_usart_write(hw_usart_get(), "2a\n", 3);
+				break;
+			case 0x01: //mode 39 01 when getting out of tel mode. getting in tel mode is 3a 1c
+				hw_usart_write(hw_usart_get(), "mode\n", 5);
+				break;
+			case 0x00: //39 00 when empty	
+				hw_usart_write(hw_usart_get(), "zero\n", 5);
+
 				struct i2c_t *i2c = hw_i2c_get();
-				uint8_t data_to_write = 0; // example wiper value for AD5246
-				hw_i2c_write(i2c->baddr, 0x2E, &data_to_write, 1);
-			}
-			break;
-		default:	
-			byte_to_hex(msg[0], &buf[0]);
-			buf[2] = ' ';
-			byte_to_hex(msg[1], &buf[3]);
-			buf[5] = '\n';
-			hw_usart_write(hw_usart_get(), (uint8_t *)buf, 6);
-			break;
+				data_to_write = 0; // example wiper value for AD5246
+				// hw_i2c_write(i2c->baddr, 0x2E, &data_to_write, 1);
+
+				break;
+			default:
+
+					byte_to_hex(msg[0], &buf[0]);
+					buf[2] = ' ';
+					byte_to_hex(msg[1], &buf[3]);
+					buf[5] = '\n';
+					hw_usart_write(hw_usart_get(), (uint8_t *)buf, 6);
+
+				break;
+		}
 	}
 }
 
