@@ -10,6 +10,8 @@
 // #include "canbox.h"
 #include "conf.h"
 
+#define ALWAYS_ON
+
 static uint32_t rear_off_delay = 0;
 static uint32_t rear_on_delay = 0;
 // static uint32_t rear_on_timeout = 200;
@@ -437,6 +439,13 @@ static void gpio_process(void)
 //	uint8_t park_lights = car_get_park_lights();
 	uint8_t ill = car_get_illum();
 	
+#ifdef ALWAYS_ON
+	if (acc) {
+		hw_gpio_acc_on();
+	} else {
+		hw_gpio_acc_off();
+	}
+#elif
 	// Track if IGN was ever on
 	if (ign)
 		ign_seen = 1;
@@ -452,7 +461,7 @@ static void gpio_process(void)
 		hw_gpio_acc_off();      // Turn off ACC GPIO if ACC is off
 		ign_seen = 0;
 	}
-
+#endif
 
 	if (ill > conf_get_illum())
 		hw_gpio_ill_on();
