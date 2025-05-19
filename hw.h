@@ -20,5 +20,7 @@ void hw_gpio_acc_off(void);
 void hw_gpio_ill_on(void);
 void hw_gpio_ill_off(void);
 
+#define HOLD_BUTTONS_FOR_TWO_SECONDS
+
 #endif
 

@@ -147,10 +147,21 @@ enum e_car_t car_get_next_car(void)
 	return car;
 }
 
+#ifdef HOLD_BUTTONS_FOR_TWO_SECONDS
+extern uint8_t res_value;
+#endif
 static void in_process(struct can_t * can, uint8_t ticks, struct msg_desc_t * msg_desc, uint8_t desc_num)
 {
 	uint8_t msgs_num = hw_can_get_msg_nums(can);
 	uint32_t all_packs = 0;
+#ifdef HOLD_BUTTONS_FOR_TWO_SECONDS
+	static uint16_t tick_counter_for_digital_resistor_resets = 0;
+	if (res_value != 0) { // if digital resisitor is set to a value
+		// hw_usart_write(hw_usart_get(), "resistor\n", 9);
+		tick_counter_for_digital_resistor_resets += ticks;
+	}
+#endif
+
 	for (uint8_t i = 0; i < msgs_num; i++) {
 
 		struct msg_can_t msg;
@@ -201,6 +212,13 @@ static void in_process(struct can_t * can, uint8_t ticks, struct msg_desc_t * ms
 			}
 		}
 	}
+#ifdef HOLD_BUTTONS_FOR_TWO_SECONDS
+	if (tick_counter_for_digital_resistor_resets >= 2000) {
+		tick_counter_for_digital_resistor_resets = 0;
+		hw_i2c_write(hw_i2c_get()->baddr, 0x2E, tick_counter_for_digital_resistor_resets);
+		hw_usart_write(hw_usart_get(), "reset\n", 6);
+	}
+#endif
 }
 
 void car_init(enum e_car_t car, struct key_cb_t * cb)
