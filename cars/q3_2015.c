@@ -85,7 +85,7 @@ static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc
 	if (last_msg != msg[1]) {
 		last_msg = msg[1];
 
-		struct i2c_t *i2c = hw_i2c_get();
+		// struct i2c_t *i2c = hw_i2c_get();
 		uint8_t data_to_write = 0;
 	
 		switch (msg[1]) {
@@ -96,7 +96,7 @@ static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc
 				//      2. turning on mosfet
 				//      3. setting flag so the interrupt loop will turn off the mosfet at some point
 				data_to_write = 64;
-				hw_i2c_write(i2c->baddr, 0x2E, &data_to_write, 1);
+				// hw_i2c_write(i2c->baddr, 0x2E, &data_to_write, 1);
 				hw_usart_write(hw_usart_get(), "vol+\n", 5);
 				break;
 			case 0x07: // vol down 39 07
@@ -120,8 +120,6 @@ static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc
 				break;
 			case 0x00: //39 00 when empty	
 				hw_usart_write(hw_usart_get(), "zero\n", 5);
-
-				struct i2c_t *i2c = hw_i2c_get();
 				data_to_write = 0; // example wiper value for AD5246
 				// hw_i2c_write(i2c->baddr, 0x2E, &data_to_write, 1);
 

@@ -4,195 +4,110 @@
 #include <libopencm3/stm32/f1/nvic.h>
 
 #include "hw_i2c.h"
+#include "hw_usart.h"
 
-// Adjust I2C peripheral here (I2C2 used as example)
+#define HW_I2C_TIMEOUT 10000000
+
+// Adjust I2C peripheral here (I2C1 used as example)
 static struct i2c_t i2c2 = {
-    .baddr = I2C2,
-    .rcc = RCC_I2C2,
+    .baddr = I2C1,
+    .rcc = RCC_I2C1,
     // .scl = GPIO_INIT(B, 10),
-    .scl = {GPIOB, GPIO10},
+    // .scl = {GPIOB, GPIO10},
+    .scl = {GPIOB, GPIO6},
     // .sda = GPIO_INIT(B, 11),
-    .sda = {GPIOB, GPIO11},
+    // .sda = {GPIOB, GPIO11},
+    .sda = {GPIOB, GPIO7},
 };
 
 struct i2c_t * hw_i2c_get(void)
 {
     return &i2c2;
 }
-
-/*
-void hw_i2c_setup(struct i2c_t *i2c, uint32_t speed_hz,
-                  uint8_t *txbuf, uint32_t txbuflen,
-                  uint8_t *rxbuf, uint32_t rxbuflen)
-{
-    // rcc_periph_clock_enable(RCC_AFIO);
-	rcc_periph_clock_enable(RCC_GPIOB);
-
-	rcc_periph_reset_pulse(RST_I2C2);
-
-    gpio_set_mode(GPIOB, GPIO_MODE_OUTPUT_50_MHZ, GPIO_CNF_OUTPUT_ALTFN_OPENDRAIN, GPIO_I2C2_SCL | GPIO_I2C2_SDA);
-    rcc_periph_clock_enable(RCC_I2C2);
-    i2c_peripheral_disable(I2C2);
-    // i2c_set_clock_frequency(I2C2, 36); // if APB1 = 36 MHz
-
-    // i2c_set_fast_mode(I2C2);
-    // i2c_set_ccr(I2C2, 0x1e);
-	// i2c_set_trise(I2C2, 0x0b);
-
-    // // i2c_set_ccr(I2C2, 180);            // for 100kHz
-    // // i2c_set_trise(I2C2, 37);           // for 100kHz
-
-    i2c_set_speed(I2C2, i2c_speed_sm_100k, 8);
-    i2c_set_standard_mode(I2C2);
-
-	i2c_peripheral_enable(I2C2);
-}
-// */
-
-void hw_i2c_setup(struct i2c_t *i2c, uint32_t speed_hz,
-                  uint8_t *txbuf, uint32_t txbuflen,
-                  uint8_t *rxbuf, uint32_t rxbuflen)
-{
-	/* Enable clocks for I2C2 and AFIO. */
-    rcc_peripheral_enable_clock(&RCC_APB2ENR, RCC_APB2ENR_IOPBEN);
-	rcc_peripheral_enable_clock(&RCC_APB1ENR, RCC_APB1ENR_I2C2EN);
-	rcc_peripheral_enable_clock(&RCC_APB2ENR, RCC_APB2ENR_AFIOEN);
-
-	/* Set alternate functions for the SCL and SDA pins of I2C2. */
-	gpio_set_mode(GPIOB, GPIO_MODE_OUTPUT_50_MHZ,
-		      GPIO_CNF_OUTPUT_ALTFN_OPENDRAIN,
-		      GPIO_I2C2_SCL | GPIO_I2C2_SDA);
-
-	/* Disable the I2C before changing any configuration. */
-	i2c_peripheral_disable(I2C2);
-
-i2c_reset(I2C2);                  // Recommended to clear any stale state
-i2c_set_clock_frequency(I2C2, 36); // APB1 in MHz
-i2c_set_standard_mode(I2C2);
-i2c_set_dutycycle(I2C2, I2C_CCR_DUTY_DIV2); // Standard mode
-i2c_disable_dual_addressing_mode(I2C2);
-// i2c_set_own_address(I2C2, 0x00, I2C_OAR1_ADDMODE_7BIT);
-i2c_disable_ack(I2C2); // Disable ACK if you're only transmitting
-i2c_peripheral_enable(I2C2);
+void hw_i2c_reset(uint32_t i2c) {
+    I2C_CR1(i2c) |= I2C_CR1_SWRST;
+    I2C_CR1(i2c) &= ~I2C_CR1_SWRST;
 }
 
-// i2c_read7_v1 and i2c_write7_v1 from https://libopencm3.org/docs/latest/stm32f2/html/i2c__common__v1_8c_source.html 
-void hw_i2c_write(uint32_t i2c, int addr, const uint8_t *data, uint32_t n)
-{
-    while (I2C_SR2(I2C2) & I2C_SR2_BUSY);
-    i2c_send_start(I2C2);
-    // while (!(I2C_SR1(I2C2) & I2C_SR1_SB));
-    // while (!((I2C_SR1(i2c) & I2C_SR1_SB)
-    // & (I2C_SR2(i2c) & (I2C_SR2_MSL | I2C_SR2_BUSY))));
+void hw_i2c_setup(uint32_t i2c, uint32_t pclk_mhz) {
 
-    i2c_send_7bit_address(i2c, addr, I2C_WRITE);
-    while (!(I2C_SR1(i2c) & I2C_SR1_ADDR));
-    (void)I2C_SR2(i2c); // clear ADDR
-    for (uint32_t i = 0; i < n; i++) {
-        i2c_send_data(i2c, data[i]);
-        while (!(I2C_SR1(i2c) & I2C_SR1_BTF));
-    }
+    rcc_periph_clock_enable(RCC_GPIOB);
+
+    // Configure PB6 (SCL) and PB7 (SDA) as AF open-drain
+    gpio_set_mode(GPIOB, GPIO_MODE_OUTPUT_50_MHZ,
+                  GPIO_CNF_OUTPUT_ALTFN_OPENDRAIN, GPIO6);
+    gpio_set_mode(GPIOB, GPIO_MODE_OUTPUT_50_MHZ,
+                  GPIO_CNF_OUTPUT_ALTFN_OPENDRAIN, GPIO7);
+
+    rcc_periph_clock_enable(RCC_I2C1);
+
+    // Reset and disable I2C1 before configuring
+    i2c_peripheral_disable(I2C1);
+    i2c_reset(I2C1);
+
+    // Set APB1 clock frequency in MHz (usually 36MHz on STM32F1)
+    i2c_set_clock_frequency(I2C1, 36);
+
+    // Set standard mode (100kHz) timings
+    i2c_set_standard_mode(I2C1);
+    i2c_set_ccr(I2C1, 180);  // 36MHz / (2 * 100kHz)
+    i2c_set_trise(I2C1, 37); // 36MHz + 1
+
+    // Enable ACK (optional)
+    i2c_enable_ack(I2C1);
+
+    // Set own address (not used in master mode, but required)
+    i2c_set_own_7bit_slave_address(I2C1, 0x00);
+
+    // Enable I2C1
+    i2c_peripheral_enable(I2C1);
+
+}
+
+static uint32_t dummy_reg;
+
+static int hw_i2c_start(uint32_t i2c, uint8_t addr, uint8_t direction) {
+    uint32_t timeout = HW_I2C_TIMEOUT;
+
+    hw_usart_write(hw_usart_get(), "before send start\n", 18);
+
+    i2c_send_start(i2c);
+    hw_usart_write(hw_usart_get(), "after send start\n", 17);
+    while (!(I2C_SR1(i2c) & I2C_SR1_SB))
+        if (--timeout == 0) return -1;
+
+    hw_usart_write(hw_usart_get(), "after device ready\n", 19);
+
+    i2c_send_7bit_address(i2c, addr, direction);
+    timeout = HW_I2C_TIMEOUT;
+    while (!(I2C_SR1(i2c) & I2C_SR1_ADDR))
+        if (--timeout == 0) return -2;
+
+    dummy_reg = I2C_SR2(i2c); // clear ADDR
+    return 0;
+}
+
+static int hw_i2c_write_byte(uint32_t i2c, uint8_t byte) {
+    uint32_t timeout = HW_I2C_TIMEOUT;
+    while (!(I2C_SR1(i2c) & I2C_SR1_TxE))
+        if (--timeout == 0) return -1;
+
+    i2c_send_data(i2c, byte);
+    return 0;
+}
+
+static int hw_i2c_stop(uint32_t i2c) {
+    uint32_t timeout = HW_I2C_TIMEOUT;
+    while (!(I2C_SR1(i2c) & I2C_SR1_BTF))
+        if (--timeout == 0) return -1;
+
     i2c_send_stop(i2c);
-}
-// void hw_i2c_write(uint32_t i2c, int addr, const uint8_t *data, uint32_t n)
-// {
-//         while ((I2C_SR2(i2c) & I2C_SR2_BUSY)) {
-//         }
- 
-//         i2c_send_start(i2c);
- 
-//         /* Wait for the end of the start condition, master mode selected, and BUSY bit set */
-//         while ( !( (I2C_SR1(i2c) & I2C_SR1_SB)
-//                 && (I2C_SR2(i2c) & I2C_SR2_MSL)
-//                 && (I2C_SR2(i2c) & I2C_SR2_BUSY) ));
- 
-//         i2c_send_7bit_address(i2c, addr, I2C_WRITE);
- 
-//         /* Waiting for address is transferred. */
-//         while (!(I2C_SR1(i2c) & I2C_SR1_ADDR));
- 
-//         /* Clearing ADDR condition sequence. */
-//         (void)I2C_SR2(i2c);
- 
-//         for (uint32_t i = 0; i < n; i++) {
-//                 i2c_send_data(i2c, data[i]);
-//                 while (!(I2C_SR1(i2c) & (I2C_SR1_BTF)));
-//         }
-// }
- 
-void hw_i2c_read(uint32_t i2c, int addr, uint8_t *res, uint32_t n)
-{
-        i2c_send_start(i2c);
-        i2c_enable_ack(i2c);
- 
-        /* Wait for the end of the start condition, master mode selected, and BUSY bit set */
-        while ( !( (I2C_SR1(i2c) & I2C_SR1_SB)
-                && (I2C_SR2(i2c) & I2C_SR2_MSL)
-                && (I2C_SR2(i2c) & I2C_SR2_BUSY) ));
- 
-        i2c_send_7bit_address(i2c, addr, I2C_READ);
- 
-        /* Waiting for address is transferred. */
-        while (!(I2C_SR1(i2c) & I2C_SR1_ADDR));
-        /* Clearing ADDR condition sequence. */
-        (void)I2C_SR2(i2c);
- 
-        for (uint32_t i = 0; i < n; ++i) {
-                if (i == n - 1) {
-                        i2c_disable_ack(i2c);
-                }
-                while (!(I2C_SR1(i2c) & I2C_SR1_RxNE));
-                res[i] = i2c_get_data(i2c);
-        }
-        i2c_send_stop(i2c);
- 
-        return;
+    return 0;
 }
 
-// // Simple blocking write (master transmit)
-// int hw_i2c_write(struct i2c_t *i2c, uint8_t addr, const uint8_t *data, uint32_t len)
-// {
-//     i2c_send_start(i2c->baddr);
-
-//     if (!i2c_send_7bit_address(i2c->baddr, addr, I2C_WRITE)) {
-//         i2c_send_stop(i2c->baddr);
-//         return -1;
-//     }
-
-//     for (uint32_t i = 0; i < len; i++) {
-//         if (!i2c_send_data(i2c->baddr, data[i])) {
-//             i2c_send_stop(i2c->baddr);
-//             return -2;
-//         }
-//         i2c->tx_cnt++;
-//     }
-
-//     i2c_send_stop(i2c->baddr);
-//     return 0;
-// }
-
-// // Simple blocking read (master receive)
-// int hw_i2c_read(struct i2c_t *i2c, uint8_t addr, uint8_t *data, uint32_t len)
-// {
-//     if (!data)
-//         return -1;
-
-//     i2c_send_start(i2c->baddr);
-
-//     if (!i2c_send_7bit_address(i2c->baddr, addr, I2C_READ)) {
-//         i2c_send_stop(i2c->baddr);
-//         return -2;
-//     }
-
-//     for (uint32_t i = 0; i < len; i++) {
-//         if (i == (len - 1)) {
-//             data[i] = i2c_read_nack(i2c->baddr);
-//         } else {
-//             data[i] = i2c_read_ack(i2c->baddr);
-//         }
-//         i2c->rx_cnt++;
-//     }
-
-//     i2c_send_stop(i2c->baddr);
-//     return 0;
-// }
+int hw_i2c_write(uint32_t i2c, uint8_t addr, uint8_t data) {
+    if (hw_i2c_start(i2c, addr, I2C_WRITE)) return -1;
+    if (hw_i2c_write_byte(i2c, data))       return -3;
+    if (hw_i2c_stop(i2c))                   return -4;
+    return 0;
+}

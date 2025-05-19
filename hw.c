@@ -2,6 +2,8 @@
 #include <string.h>
 #include <errno.h>
 
+#include <libopencm3/stm32/i2c.h>
+
 #include "hw.h"
 #include "hw_clock.h"
 #include "hw_can.h"
@@ -33,10 +35,23 @@ void hw_setup(void)
 
 	hw_can_setup(hw_can_get_mscan(), e_speed_100);
 
-	struct i2c_t *i2c = hw_i2c_get();
-    hw_i2c_setup(i2c, 100000, txbuf, sizeof(txbuf), rxbuf, sizeof(rxbuf));
-	uint8_t data_to_write = 0; // example wiper value for AD5246
-	hw_i2c_write(i2c->baddr, 0x2E, &data_to_write, 1);
+	hw_i2c_reset(I2C2);
+	hw_i2c_setup(I2C2, 36); // If APB1 = 36MHz
+	hw_usart_write(hw_usart_get(), "testst\n", 8);
+
+	for (volatile int i = 0; i < 100000; i++); // crude delay (~few ms depending on clock)
+	hw_usart_write(hw_usart_get(), "testes\n", 8);
+	int ret = hw_i2c_write(I2C1, 0x2E, 0x32); // Write 0x55 to register 0x00 of slave 0x2C
+	if (ret == -1) {
+		hw_usart_write(hw_usart_get(), "fail -1\n", 8);
+	}
+	if (ret == -3) {
+		hw_usart_write(hw_usart_get(), "fail -3\n", 8);
+	}
+	if (ret == -4) {
+		hw_usart_write(hw_usart_get(), "fail -4\n", 8);
+	}
+	ret = hw_i2c_write(I2C1, 0x2E, 0x0); // Write 0x55 to register 0x00 of slave 0x2C
 
 	// hw_conf_setup();
 
