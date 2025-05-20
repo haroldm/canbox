@@ -156,7 +156,7 @@ static void in_process(struct can_t * can, uint8_t ticks, struct msg_desc_t * ms
 	uint32_t all_packs = 0;
 #ifdef HOLD_BUTTONS_FOR_TWO_SECONDS
 	static uint16_t tick_counter_for_digital_resistor_resets = 0;
-	if (res_value != 0) { // if digital resisitor is set to a value
+	if (res_value != 0x7f) { // if digital resisitor is set to a value
 		// hw_usart_write(hw_usart_get(), "resistor\n", 9);
 		tick_counter_for_digital_resistor_resets += ticks;
 	}
@@ -215,7 +215,8 @@ static void in_process(struct can_t * can, uint8_t ticks, struct msg_desc_t * ms
 #ifdef HOLD_BUTTONS_FOR_TWO_SECONDS
 	if (tick_counter_for_digital_resistor_resets >= 2000) {
 		tick_counter_for_digital_resistor_resets = 0;
-		hw_i2c_write(hw_i2c_get()->baddr, 0x2E, tick_counter_for_digital_resistor_resets);
+		res_value=0;
+		hw_i2c_write(hw_i2c_get()->baddr, 0x2E, 0x7f);
 		hw_usart_write(hw_usart_get(), "reset\n", 6);
 	}
 #endif

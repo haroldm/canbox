@@ -37,21 +37,24 @@ void hw_setup(void)
 
 	hw_i2c_reset(I2C2);
 	hw_i2c_setup(I2C2, 36); // If APB1 = 36MHz
-	hw_usart_write(hw_usart_get(), "testst\n", 8);
+	// for (volatile int i = 0; i < 100000; i++); // crude delay (~few ms depending on clock)
+	hw_i2c_write(I2C1, 0x2E, 0x7f);
 
-	for (volatile int i = 0; i < 100000; i++); // crude delay (~few ms depending on clock)
-	hw_usart_write(hw_usart_get(), "testes\n", 8);
-	int ret = hw_i2c_write(I2C1, 0x2E, 0x32); // Write 0x55 to register 0x00 of slave 0x2C
-	if (ret == -1) {
-		hw_usart_write(hw_usart_get(), "fail -1\n", 8);
-	}
-	if (ret == -3) {
-		hw_usart_write(hw_usart_get(), "fail -3\n", 8);
-	}
-	if (ret == -4) {
-		hw_usart_write(hw_usart_get(), "fail -4\n", 8);
-	}
-	ret = hw_i2c_write(I2C1, 0x2E, 0x0); // Write 0x55 to register 0x00 of slave 0x2C
+	// hw_usart_write(hw_usart_get(), "testst\n", 8);
+
+	// for (volatile int i = 0; i < 100000; i++); // crude delay (~few ms depending on clock)
+	// hw_usart_write(hw_usart_get(), "testes\n", 8);
+	// int ret = hw_i2c_write(I2C1, 0x2E, 0x32); // Write 0x55 to register 0x00 of slave 0x2C
+	// if (ret == -1) {
+	// 	hw_usart_write(hw_usart_get(), "fail -1\n", 8);
+	// }
+	// if (ret == -3) {
+	// 	hw_usart_write(hw_usart_get(), "fail -3\n", 8);
+	// }
+	// if (ret == -4) {
+	// 	hw_usart_write(hw_usart_get(), "fail -4\n", 8);
+	// }
+	// ret = hw_i2c_write(I2C1, 0x2E, 0x0); // Write 0x55 to register 0x00 of slave 0x2C
 
 	// hw_conf_setup();
 

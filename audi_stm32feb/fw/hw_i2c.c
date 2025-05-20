@@ -8,6 +8,14 @@
 
 #define HW_I2C_TIMEOUT 10000000
 
+static char nibble_to_hex(uint8_t nibble) {
+    return (nibble < 10) ? ('0' + nibble) : ('a' + nibble - 10);
+}
+static void byte_to_hex(uint8_t byte, char *out) {
+    out[0] = nibble_to_hex((byte >> 4) & 0xF);
+    out[1] = nibble_to_hex(byte & 0xF);
+}
+
 // Adjust I2C peripheral here (I2C1 used as example)
 static struct i2c_t i2c2 = {
     .baddr = I2C1,
@@ -69,14 +77,14 @@ static uint32_t dummy_reg;
 static int hw_i2c_start(uint32_t i2c, uint8_t addr, uint8_t direction) {
     uint32_t timeout = HW_I2C_TIMEOUT;
 
-    hw_usart_write(hw_usart_get(), "before send start\n", 18);
+    // hw_usart_write(hw_usart_get(), "before send start\n", 18);
 
     i2c_send_start(i2c);
-    hw_usart_write(hw_usart_get(), "after send start\n", 17);
+    // hw_usart_write(hw_usart_get(), "after send start\n", 17);
     while (!(I2C_SR1(i2c) & I2C_SR1_SB))
         if (--timeout == 0) return -1;
 
-    hw_usart_write(hw_usart_get(), "after device ready\n", 19);
+    // hw_usart_write(hw_usart_get(), "after device ready\n", 19);
 
     i2c_send_7bit_address(i2c, addr, direction);
     timeout = HW_I2C_TIMEOUT;
@@ -106,6 +114,12 @@ static int hw_i2c_stop(uint32_t i2c) {
 }
 
 int hw_i2c_write(uint32_t i2c, uint8_t addr, uint8_t data) {
+    hw_usart_write(hw_usart_get(), "writing ", 8);
+    uint8_t buf[2] = {0};
+    byte_to_hex(data, buf);
+    hw_usart_write(hw_usart_get(), buf, 2);
+    hw_usart_write(hw_usart_get(), " to device\n ", 11);
+
     if (hw_i2c_start(i2c, addr, I2C_WRITE)) return -1;
     if (hw_i2c_write_byte(i2c, data))       return -3;
     if (hw_i2c_stop(i2c))                   return -4;

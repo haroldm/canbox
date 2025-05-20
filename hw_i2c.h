@@ -18,6 +18,8 @@ struct i2c_t {
     struct gpio_t sda;
 };
 
+struct i2c_t * hw_i2c_get(void);
+
 void hw_i2c_reset(uint32_t i2c);
 
 void hw_i2c_setup(uint32_t i2c, uint32_t pclk_mhz);

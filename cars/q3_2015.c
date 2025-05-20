@@ -1,5 +1,8 @@
 #include "hw_i2c.h"
 #include "hw_usart.h"
+#include "hw.h" // important to include that for HOLD_BUTTONS_FOR_TWO_SECONDS
+
+uint8_t res_value = 0x7f; // between 0 and 128
 
 // Helper to convert a single nibble to hex
 static char nibble_to_hex(uint8_t nibble) {
@@ -85,8 +88,7 @@ static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc
 	if (last_msg != msg[1]) {
 		last_msg = msg[1];
 
-		// struct i2c_t *i2c = hw_i2c_get();
-		uint8_t data_to_write = 0;
+		struct i2c_t *i2c = hw_i2c_get();
 	
 		switch (msg[1]) {
 			case 0x06: // vol up 39 06
@@ -95,14 +97,16 @@ static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc
 				// 		1. setting resistance in the i2c potentiometer
 				//      2. turning on mosfet
 				//      3. setting flag so the interrupt loop will turn off the mosfet at some point
-				data_to_write = 64;
+				res_value = 20;
 				// hw_i2c_write(i2c->baddr, 0x2E, &data_to_write, 1);
 				hw_usart_write(hw_usart_get(), "vol+\n", 5);
 				break;
 			case 0x07: // vol down 39 07
+				res_value = 30;
 				hw_usart_write(hw_usart_get(), "vol-\n", 5);
 				break;
 			case 0xa7: // vol push  3b a7
+				res_value = 10;
 				hw_usart_write(hw_usart_get(), "vol push\n", 9);
 				break;
 			case 0x0b: // up 39 0b (tel mode is 3a 02)
@@ -111,7 +115,9 @@ static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc
 			case 0x0c: // down 39 0c (tel mode is 3a 03)
 				hw_usart_write(hw_usart_get(), "down\n", 5);
 				break;
-			// case 0x08: // push left button 39 08
+			case 0x08: // push left button 39 08
+				res_value = 40;
+				hw_usart_write(hw_usart_get(), "push left\n", 10);
 			case 0x2a: // mic 3c 2a
 				hw_usart_write(hw_usart_get(), "2a\n", 3);
 				break;
@@ -120,8 +126,11 @@ static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc
 				break;
 			case 0x00: //39 00 when empty	
 				hw_usart_write(hw_usart_get(), "zero\n", 5);
-				data_to_write = 0; // example wiper value for AD5246
-				// hw_i2c_write(i2c->baddr, 0x2E, &data_to_write, 1);
+#ifndef HOLD_BUTTONS_FOR_TWO_SECONDS
+				// reset only if we don't want to hold buttons for two secondss
+				res_value = 0x7f; // example wiper value for AD5246
+				hw_i2c_write(hw_i2c_get()->baddr, 0x2E, 0x7f);
+#endif
 
 				break;
 			default:
@@ -134,8 +143,16 @@ static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc
 
 				break;
 		}
+		if (res_value != 0x7f) {
+			hw_i2c_write(i2c->baddr, 0x2E, res_value);
+			// value will be reset in two seconds in car.c
+		}
 	}
 }
+
+// void debug_can(const uint8_t * msg) {
+// 	a3_2011_ms_5c3_handler(msg, NULL);
+// }
 
 static void q3_2015_ms_470_handler(const uint8_t * msg, struct msg_desc_t * desc)
 {

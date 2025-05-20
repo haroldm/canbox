@@ -445,7 +445,7 @@ static void gpio_process(void)
 	} else {
 		hw_gpio_acc_off();
 	}
-#elif
+#else
 	// Track if IGN was ever on
 	if (ign)
 		ign_seen = 1;
@@ -458,6 +458,7 @@ static void gpio_process(void)
 			hw_gpio_acc_off();  // Don't enable ACC GPIO until IGN has been on
 		}
 	} else {
+		// TODO turn off when car is locked?
 		hw_gpio_acc_off();      // Turn off ACC GPIO if ACC is off
 		ign_seen = 0;
 	}
@@ -564,6 +565,10 @@ int main(void)
 
 				wakeups++;
 			}
+			// //debug
+			// extern void debug_can(const uint8_t * msg);
+			// const uint8_t msg[] = {0x0, 0x07};
+			// debug_can(msg);
 		}
 	}
 }
