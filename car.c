@@ -215,7 +215,7 @@ static void in_process(struct can_t * can, uint8_t ticks, struct msg_desc_t * ms
 #ifdef HOLD_BUTTONS_FOR_TWO_SECONDS
 	if (tick_counter_for_digital_resistor_resets >= 2000) {
 		tick_counter_for_digital_resistor_resets = 0;
-		res_value=0;
+		res_value=0x7f;
 		hw_i2c_write(hw_i2c_get()->baddr, 0x2E, 0x7f);
 		hw_usart_write(hw_usart_get(), "reset\n", 6);
 	}

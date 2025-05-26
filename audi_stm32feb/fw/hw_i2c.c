@@ -114,11 +114,11 @@ static int hw_i2c_stop(uint32_t i2c) {
 }
 
 int hw_i2c_write(uint32_t i2c, uint8_t addr, uint8_t data) {
-    hw_usart_write(hw_usart_get(), "writing ", 8);
+    // hw_usart_write(hw_usart_get(), "writing ", 8);
     uint8_t buf[2] = {0};
-    byte_to_hex(data, buf);
-    hw_usart_write(hw_usart_get(), buf, 2);
-    hw_usart_write(hw_usart_get(), " to device\n ", 11);
+    // byte_to_hex(data, buf);
+    // hw_usart_write(hw_usart_get(), buf, 2);
+    // hw_usart_write(hw_usart_get(), " to device\n ", 11);
 
     if (hw_i2c_start(i2c, addr, I2C_WRITE)) return -1;
     if (hw_i2c_write_byte(i2c, data))       return -3;

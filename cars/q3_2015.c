@@ -69,7 +69,7 @@ static void q3_2015_ms_635_handler(const uint8_t * msg, struct msg_desc_t * desc
 	// buf[5] = ' ';
 	// byte_to_hex(msg[1], &buf[6]);
 	// buf[8] = '\n';
-	// hw_usart_write(hw_usart_get(), (uint8_t *)buf, 9);
+	// // hw_usart_write(hw_usart_get(), (uint8_t *)buf, 9);
 
 	if (msg[1] == 0) {
 		carstate.illum = 0;
@@ -99,33 +99,33 @@ static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc
 				//      3. setting flag so the interrupt loop will turn off the mosfet at some point
 				res_value = 20;
 				// hw_i2c_write(i2c->baddr, 0x2E, &data_to_write, 1);
-				hw_usart_write(hw_usart_get(), "vol+\n", 5);
+				// hw_usart_write(hw_usart_get(), "vol+\n", 5);
 				break;
 			case 0x07: // vol down 39 07
 				res_value = 30;
-				hw_usart_write(hw_usart_get(), "vol-\n", 5);
+				// hw_usart_write(hw_usart_get(), "vol-\n", 5);
 				break;
 			case 0xa7: // vol push  3b a7
 				res_value = 10;
-				hw_usart_write(hw_usart_get(), "vol push\n", 9);
+				// hw_usart_write(hw_usart_get(), "vol push\n", 9);
 				break;
 			case 0x0b: // up 39 0b (tel mode is 3a 02)
-				hw_usart_write(hw_usart_get(), "up\n", 3);
+				// hw_usart_write(hw_usart_get(), "up\n", 3);
 				break;
 			case 0x0c: // down 39 0c (tel mode is 3a 03)
-				hw_usart_write(hw_usart_get(), "down\n", 5);
+				// hw_usart_write(hw_usart_get(), "down\n", 5);
 				break;
 			case 0x08: // push left button 39 08
 				res_value = 40;
-				hw_usart_write(hw_usart_get(), "push left\n", 10);
+				// hw_usart_write(hw_usart_get(), "push left\n", 10);
 			case 0x2a: // mic 3c 2a
-				hw_usart_write(hw_usart_get(), "2a\n", 3);
+				// hw_usart_write(hw_usart_get(), "2a\n", 3);
 				break;
 			case 0x01: //mode 39 01 when getting out of tel mode. getting in tel mode is 3a 1c
-				hw_usart_write(hw_usart_get(), "mode\n", 5);
+				// hw_usart_write(hw_usart_get(), "mode\n", 5);
 				break;
 			case 0x00: //39 00 when empty	
-				hw_usart_write(hw_usart_get(), "zero\n", 5);
+				// hw_usart_write(hw_usart_get(), "zero\n", 5);
 #ifndef HOLD_BUTTONS_FOR_TWO_SECONDS
 				// reset only if we don't want to hold buttons for two secondss
 				res_value = 0x7f; // example wiper value for AD5246
@@ -139,7 +139,7 @@ static void a3_2011_ms_5c3_handler(const uint8_t * msg, struct msg_desc_t * desc
 					buf[2] = ' ';
 					byte_to_hex(msg[1], &buf[3]);
 					buf[5] = '\n';
-					hw_usart_write(hw_usart_get(), (uint8_t *)buf, 6);
+					// hw_usart_write(hw_usart_get(), (uint8_t *)buf, 6);
 
 				break;
 		}
@@ -171,10 +171,10 @@ static void q3_2015_ms_470_handler(const uint8_t * msg, struct msg_desc_t * desc
 	// 0x470 : 00 00 24 16 20 00 00 00
 
 	if (carstate.fl_door == 0 && (msg[1] & 0x01) == 1) {
-		hw_usart_write(hw_usart_get(), "door open\n", 12);
+		// hw_usart_write(hw_usart_get(), "door open\n", 12);
 
 	} else if (carstate.fl_door == 1 && (msg[1] & 0x01) == 0) {
-		hw_usart_write(hw_usart_get(), "door close\n", 12);
+		// hw_usart_write(hw_usart_get(), "door close\n", 12);
 	}
 	carstate.fl_door  = (msg[1] & 0x01) ? 1 : 0;
 	carstate.fr_door  = (msg[1] & 0x02) ? 1 : 0;

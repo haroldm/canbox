@@ -432,7 +432,7 @@ void print_debug(void)
 
 static void gpio_process(void)
 {
-	static uint8_t ign_seen = 0;
+	static uint8_t previous_acc;
 
 	uint8_t acc = car_get_acc();
 	uint8_t ign = car_get_ign();
@@ -440,12 +440,14 @@ static void gpio_process(void)
 	uint8_t ill = car_get_illum();
 	
 #ifdef ALWAYS_ON
-	if (acc) {
+	if (previous_acc != acc && acc) {
 		hw_gpio_acc_on();
+		previous_acc = acc;
 	} else {
 		hw_gpio_acc_off();
 	}
 #else
+	static uint8_t ign_seen = 0;
 	// Track if IGN was ever on
 	if (ign)
 		ign_seen = 1;
@@ -490,7 +492,7 @@ int main(void)
 	while(1) {
 
 		gpio_process();
-		usart_process();
+		// usart_process();
 
 		if (timer.flag_tick) {
 
